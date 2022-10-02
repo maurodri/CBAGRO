@@ -70,27 +70,42 @@ Ya explicando esto es momento de explicar en qué consiste el proyecto final:
 
 
 ## Inicio  y Maqueta General ##
-Comenzamos con el index y de paso se explica la maqueta general porque esta consiste que se cumplieron todos los requerimientos de maquetación implementando las secciones de Header, Nav, Aside, Main, Footer.
+Comenzamos con el index y de paso se explica la maqueta general porque esta consiste que se cumplieron todos los requerimientos de maquetación implementando las secciones de Header, Nav, Aside, Main, Footer donde se uso con un diseño de color de  `#fd7e14` .
 
-En el Nav se usó el Nav-Bar de bootstrap.
-##### Contenido general #####
-- Las categorias.
+En el Nav se usó el Nav-Bar de bootstrap un conjunto de códigos que permite que en la versión de escritorio aparezca el nav con sus ítems de la forma tradicional pero en la versión móvil se despliega por un botón de hamburguesa de la siguiente manera:
+- ![image](https://user-images.githubusercontent.com/110676905/193480299-5a7a3548-16d1-47bb-a44f-5e42cb183209.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193480364-d1c78267-09e2-4877-8f6e-79c505ecf051.png)
+
+también en los ítems de categorías y exposiciones van acompañados de un icono implementado por la librería google icons.
+
+- ![image](https://user-images.githubusercontent.com/110676905/193480391-89148e88-3c8a-48ba-a1b5-9be016f2ecee.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193480402-f889562f-070a-4e2a-9719-ea2bb3b5a14c.png)
+
+Las librerías de google también fueron de gran utilidad para la fuente general de todo el proyecto porque se usó la fuente ‘Poppins’ de la librería Google Fonts.
+
+  A continuación se presenta todos los requerimientos que se cumplieron en este proyecto para la maquetación general:
+
+Las categorías.
 - Exposiciones.
 - Eventos.
 - Quienes somos.
 - Objetivos.
 - Inicio.
-- El como llegar .
-- El logo del **SENA**.
+- Cómo llegar .
+- El logo del SENA.
 - El logo del CBAGRO.
 - El copyright SENA CBAGRO ©2022 .
 - Donde Visítarnos en: http://bienestarcba.blogspot.com/
 - Teléfono: 15462323.
-- Validacion W3C.
-- Las redes sociales del sena.
-![image](https://user-images.githubusercontent.com/110676905/193479452-2205cab0-ae34-444e-8fe3-a19ba74b3a61.png)
-![image](https://user-images.githubusercontent.com/110676905/193479466-cbcdcc4e-72a6-4394-a717-99c1c3bb2e9c.png)
-![image](https://user-images.githubusercontent.com/110676905/193479480-4fdcd30b-3401-4200-ad50-948a24045832.png)
+- Validación W3C.
+- Las redes sociales del Sena.
+ 
+ En el inicio de la página se recopilan algunas de las exposiciones de todos los trabajos realizados por el equipo, la intención de esto es que el index sea atractivo para el usuario desde la primera vez que este lo vea.
+- ![image](https://user-images.githubusercontent.com/110676905/193481040-4a3e14ad-a0e6-4855-b766-6727667cadf9.png)
+contenidos que presenta la pagina de inicio
+- ![image](https://user-images.githubusercontent.com/110676905/193481073-52fa5996-3598-4d33-ac98-32b7b6c004be.png)
+
+
 
 
 ## Quiénes Somos ##
@@ -121,9 +136,9 @@ Se define las caracteristicas y la imagen de la bandera del **SENA**
 
 #### Historia ####
  Aca se define la historia del **SENA** y su nacimiento en 1957
- ![image](https://user-images.githubusercontent.com/110676905/193475653-75200628-0fce-4417-8eb3-967127c7f82b.png)
+ - ![image](https://user-images.githubusercontent.com/110676905/193475653-75200628-0fce-4417-8eb3-967127c7f82b.png)
  - A continuacion vemos un video puesto en la pagina.
- ![image](https://user-images.githubusercontent.com/110676905/193475796-50a2ebac-d039-4a69-881c-389ba97ec75a.png)
+ - ![image](https://user-images.githubusercontent.com/110676905/193475796-50a2ebac-d039-4a69-881c-389ba97ec75a.png)
 
  #### Codigo para poner el video ####
   `` <iframe class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" height="615"
@@ -138,7 +153,7 @@ De igual manera esta pagina es de uso en diferentes dispositivos tales como celu
 
 - En esta imagen vemos la pagina desde un pc
 
-![image](https://user-images.githubusercontent.com/110676905/193476156-067de1a7-c2a4-4e9a-9ea7-48c8557987da.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193476156-067de1a7-c2a4-4e9a-9ea7-48c8557987da.png)
 
 - Y en esta la vemos tal su forma en version para celular 
 
@@ -148,7 +163,7 @@ poner el texto aqui y sus imagenes.
 
 ## Como Llegar ##
 En esta parte se puso un mapa extraido de maps con la ubicación del **SENA** 
-![image](https://user-images.githubusercontent.com/110676905/193475913-0920b85e-9198-4fb6-b626-784f537962f0.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193475913-0920b85e-9198-4fb6-b626-784f537962f0.png)
 
 #### codigo para poner el mapa ####
  `` <iframe class="map"
@@ -161,7 +176,14 @@ Y con esto los datos basicos y geograficos del CBA de Mosquera Cundinamarca.
 # Categorias #
 
 ## Apicultura ##
-texto e informacion
+En la sección de apicultura por motivos de seguridad y restricciones por parte del centro se hizo una investigación donde se explica en qué consiste esta práctica y qué beneficios ha traído; nos enfocamos más en hablar sobre sus productos porque son necesarios gran parte para uso doméstico y tienen muchos nutrientes para el bienestar nuestra salud, son productos que se adquieren en el CBA a precios cómodos y de alta calidad.
+
+- ![image](https://user-images.githubusercontent.com/110676905/193481172-40f6da7a-3af9-4675-8fe1-34fe7e070cf7.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193481190-5ebff928-2ad7-4d77-9615-ccaaea32cfcc.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193481206-0ed399a2-9943-4359-9c13-0e494d67cf8a.png)
+
+En la sección de eventos se explica los respectivos códigos que se usaron para lograr este tipo de tarjetas con ventanas modales, su intención es que el usuario se enamore de un producto a primera vista y tenga en cuenta todas las características de este mismo.
+
 
 ## Especies Menores ##
 texto e informacion
@@ -179,9 +201,9 @@ texto e informacion
 
 ## Eventos ##
 En este espacio se puede evidenciar los eventos tanto anuncios mas recientes y proximos del CBA Mosquera.
-![image](https://user-images.githubusercontent.com/110676905/193477176-ced2e95b-aaf1-4369-82af-ada1ca6de547.png)
-![image](https://user-images.githubusercontent.com/110676905/193477193-e42021db-bbaf-4501-9aa4-d702a0f9f388.png)
-![image](https://user-images.githubusercontent.com/110676905/193477231-9bf92036-18ac-4562-844d-eab5234a91e9.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193477176-ced2e95b-aaf1-4369-82af-ada1ca6de547.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193477193-e42021db-bbaf-4501-9aa4-d702a0f9f388.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193477231-9bf92036-18ac-4562-844d-eab5234a91e9.png)
 
 #### Codigo usado para hacer las cards de eventos ####
 se uso el ejemplo del evento del amor y la amistad.

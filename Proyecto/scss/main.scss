@@ -1,0 +1,586 @@
+@import "../libs/bootstrap-5.2.0/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+:root {
+    --first-color: rgb(240, 160, 12);
+    --first-color-light: #8A8EAA;
+    --first-color-lighten: #F8F8FC;
+}
+
+#header {
+
+    height: 150px;
+
+}
+
+#nav {
+    background: rgb(240, 160, 12);
+}
+
+#aside_apic {
+
+    height: 100%; 
+    background: rgb(240, 160, 12);
+
+}
+
+#aside_bio {
+
+    height: 100%; 
+    background: rgb(240, 160, 12);
+
+}
+
+#aside_gan {
+
+    height: 100%; 
+    background: rgb(240, 160, 12);
+
+}
+
+#aside_re {
+
+    height: 100%; 
+    background: rgb(240, 160, 12);
+
+}
+
+#aside_obj {
+
+    height: 100%; 
+    background: rgb(240, 160, 12);
+
+}
+
+#aside_es {
+
+    height: 100%; 
+    background: rgb(240, 160, 12);
+
+}
+
+#aside_qui {
+    height: 100%; 
+    background: rgb(240, 160, 12);
+}
+
+#aside_map {
+    height: 100%; 
+    background: rgb(240, 160, 12);
+}
+
+#aside_eve {
+    height: 100%; 
+    background: rgb(240, 160, 12);
+}
+
+#aside {
+
+    height: 100%; 
+    background: rgb(240, 160, 12);
+
+}
+
+#main {
+
+    height: auto;
+
+}
+
+#footer {
+
+    background: rgb(240, 160, 12);
+
+}
+
+.categoria {
+
+    background: rgb(240, 160, 12);
+
+}
+
+@media screen and (max-width: 991px) {
+
+    #aside_bio {
+
+        height: 100%;
+        background: rgb(240, 160, 12);
+
+    }
+
+    #aside_apic {
+
+        height: 100%;
+        background: rgb(240, 160, 12);
+
+    }
+
+    #aside_gan {
+
+        height: 100%;
+        background: rgb(240, 160, 12);
+
+    }
+
+    #aside_obj {
+
+        height: 100%;
+        background: rgb(240, 160, 12);
+
+    }
+
+    #aside_re {
+
+        height: 100%;
+        background: rgb(240, 160, 12);
+
+    }
+
+    #aside_es {
+
+        height: 100%;
+        background: rgb(240, 160, 12);
+
+    }
+
+    #aside_eve {
+        height: 100%;
+        background: rgb(240, 160, 12);
+    }
+
+    #aside_qui {
+        height: 100%;
+        background: rgb(240, 160, 12);
+    }
+
+    #aside {
+        height: 100%;
+        background: rgb(240, 160, 12);
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+
+    #aside_bio {
+
+        height: 100%;
+        background: rgb(240, 160, 12);
+
+    }
+
+    #aside_apic {
+
+        height: 100%;
+        background: rgb(240, 160, 12);
+
+    }
+
+    #aside_gan {
+
+        height: 100%;
+        background: rgb(240, 160, 12);
+
+    }
+
+    #aside_obj {
+
+        height: 100%;
+        background: rgb(240, 160, 12);
+
+    }
+
+    #aside_re {
+
+        height: 100%;
+        background: rgb(240, 160, 12);
+
+    }
+
+    #aside_es {
+
+        height: 100%;
+        background: rgb(240, 160, 12);
+
+    }
+
+    #aside_eve {
+        height: 100%;
+        background: rgb(240, 160, 12);
+    }
+
+    #aside_qui {
+        height: 100%;
+        background: rgb(240, 160, 12);
+    }
+
+    #aside {
+        height: 100%;
+        background: rgb(240, 160, 12);
+    }
+
+}
+
+@media screen and (max-width: 575px) {
+
+    #aside_bio {
+
+        height: auto;
+        background: rgb(240, 160, 12);
+
+    }
+
+    #aside_apic {
+
+        height: auto;
+        background: rgb(240, 160, 12);
+
+    }
+
+    #aside_gan {
+
+        height: auto;
+        background: rgb(240, 160, 12);
+
+    }
+
+    #aside_re {
+
+        height: auto;
+        background: rgb(240, 160, 12);
+
+    }
+
+    #aside_obj {
+
+        height: auto;
+        background: rgb(240, 160, 12);
+
+    }
+
+    #aside_es {
+
+        height: auto;
+        background: rgb(240, 160, 12);
+
+    }
+
+    #aside_qui {
+
+        height: auto;
+        background: rgb(240, 160, 12);
+
+    }
+
+    #aside_map {
+
+        height: auto;
+        background: rgb(240, 160, 12);
+
+    }
+
+    #aside_eve {
+
+        height: auto;
+        background: rgb(240, 160, 12);
+
+    }
+
+    #aside {
+
+        height: auto;
+        background: rgb(240, 160, 12);
+
+    }
+
+}
+
+#apic_encabezado {
+    width: 100%;
+    height: 400px;
+}
+
+#bio_encabezado {
+    width: 100%;
+    height: 400px;
+}
+
+#gan_encabezado {
+    width: 100%;
+    height: 400px;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+#apic_texto {
+    text-align: center;
+    font-size: 1.20rem;
+}
+
+#apic_titulo {
+    text-align: center;
+}
+
+.boton {
+
+    background: rgb(240, 160, 12);
+    color: #fff;
+}
+
+.img {
+    border: solid rgb(240, 160, 12) 0.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.img2 {
+    border: solid rgb(240, 160, 12) 0.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.img3 {
+    border: solid rgb(240, 160, 12) 0.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.img4 {
+    border: solid rgb(240, 160, 12) 0.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.img5 {
+    border: solid rgb(240, 160, 12) 0.5rem;
+    padding: 0;
+    margin: 0;
+}
+
+.ti {
+    background: url(https://img.freepik.com/vector-gratis/pasteles-dulces-pizarra_1284-3606.jpg);
+    height: 100px;
+    width: 100%;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 80px;
+    text-align: center;
+}
+
+.fondo {
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://blog.eclass.com/hubfs/shutterstock_735043519.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.title {
+    padding-top: 10%;
+    text-align: center;
+    color: #fff;
+}
+
+@keyframes backcolor {
+    100% {
+        background-position: 0 0;
+    }
+}
+
+.fondo2 {
+    width: 100%;
+    height: 50vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://housepet.es/blog/wp-content/uploads/2022/03/cuantos-anos-vive-un-conejo.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.title2 {
+    padding-top: 10%;
+    text-align: center;
+    color: #fff;
+}
+
+#title3 {
+    text-align: center;
+}
+
+@keyframes backcolor {
+    100% {
+        background-position: 0 0;
+    }
+}
+
+#objetivo_texto {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.title_map {
+    text-align: center;
+}
+
+.map {
+    width: 100%;
+    height: 600px;
+    border: 0;
+}
+
+.text_fun {
+    text-align: center;
+}
+
+#button1 {
+    background-color: var(--first-color);
+    border-color: var(--first-color);
+
+}
+
+#button2 {
+    background-color: var(--first-color);
+    border-color: var(--first-color);
+
+}
+
+#button3 {
+    background-color: var(--first-color);
+    border-color: var(--first-color);
+
+}
+
+#button4 {
+    background-color: var(--first-color);
+    border-color: var(--first-color);
+
+}
+
+#button5 {
+    background-color: var(--first-color);
+    border-color: var(--first-color);
+
+}
+
+#button6 {
+    background-color: var(--first-color);
+    border-color: var(--first-color);
+
+}
+
+#button7 {
+    background-color: var(--first-color);
+    border-color: var(--first-color);
+
+}
+
+#buttonm {
+    background-color: var(--first-color);
+    border-color: var(--first-color);
+
+}
+
+#buttons {
+    background-color: var(--first-color);
+    border-color: var(--first-color);
+
+}
+
+#button8 {
+    background-color: var(--first-color);
+    border-color: var(--first-color-light);
+
+}
+
+#button9 {
+    background-color: var(--first-color);
+    border-color: var(--first-color-light);
+
+}
+
+#button10 {
+    background-color: var(--first-color);
+    border-color: var(--first-color-light);
+
+}
+
+#button11 {
+    background-color: var(--first-color);
+    border-color: var(--first-color-light);
+
+}
+
+#button12 {
+    background-color: var(--first-color);
+    border-color: var(--first-color-light);
+
+}
+
+#buttono {
+    background-color: var(--first-color);
+    border-color: var(--first-color-light);
+
+}
+
+#buttona {
+    background-color: var(--first-color);
+    border-color: var(--first-color-light);
+
+}
+
+#card6 {
+    margin-top: 15px;
+}
+
+#card7 {
+    margin-top: 15px;
+}
+
+#card8 {
+    margin-top: 15px;
+}
+
+#card9 {
+    margin-top: 15px;
+}
+
+#card10 {
+    margin-top: 15px;
+}
+
+#card11 {
+    margin-top: 15px;
+}
+
+#card12 {
+    margin-top: 15px;
+}
+
+.carusel{
+    height: 400px;
+}
+
+.carusel2{
+    height: 500px;
+}
+
+.img_portada{
+    height: 300px;
+    width: 100%;
+}
+
+.carta_espacio{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.largo_carta{
+    height: 100%;
+}
+
+.img_carusel{
+    height: 600px;
+    width: 200px;
+}

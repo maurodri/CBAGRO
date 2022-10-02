@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <title>CBAGRO</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="header" class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <img src="../img/Senagro_Logo.png" alt="" class="mx-auto d-flex justify-content-center">
+            </div>
+        </div>
+        <div class="row">
+            <nav id="nav"
+                class="navbar navbar-expand-lg navbar-dark col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav mr-auto mx-auto d-flex justify-content-center">
+                        <li class="navbar-item active">
+                            <a href="../index.html" class="nav-link mx-auto d-flex justify-content-center">Inicio</a>
+                        </li>
+                        <li class="navbar-item active">
+                            <a href="quienes_somos.html" class="nav-link mx-auto d-flex justify-content-center">Quiénes
+                                Somos</a>
+                        </li>
+                        <li class="navbar-item active">
+                            <a href="objetivos.html"
+                                class="nav-link mx-auto d-flex justify-content-center">Objetivos</a>
+                        </li>
+                        <li class="navbar-item active">
+                            <a href="ubicanos.html" class="nav-link mx-auto d-flex justify-content-center">Cómo
+                                Llegar</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+                <div class="row" id="aside_eve">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <div class="dropdown mx-auto d-flex justify-content-center">
+                            <a href="#" class="text-light nav-link dropdown-toggle" data-toggle="dropdown">
+                                Categorias
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-dark categoria">
+                                <a href="apicultura.html" class="dropdown-item text-light categoria">
+                                    <span class="material-symbols-outlined">
+                                        emoji_nature
+                                    </span>
+                                    Apicultura
+                                </a>
+                                <a href="especies_m.html" class="dropdown-item text-light categoria">
+                                    <span class="material-symbols-outlined">
+                                        cruelty_free
+                                    </span>
+                                    Especies
+                                    Menores
+                                </a>
+                                <a href="ganaderia.html" class="dropdown-item text-light categoria">
+                                    <span class="material-symbols-outlined">
+                                        workspace_premium
+                                    </span>
+                                    Ganadería
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="dropdown mx-auto d-flex justify-content-center">
+                            <a href="#" class="text-light nav-link dropdown-toggle" data-toggle="dropdown">
+                                Exposiciones
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-dark categoria">
+                                <a href="reposteria.html" class="dropdown-item text-light categoria">
+                                    <span class="material-symbols-outlined">
+                                        cake
+                                    </span>
+                                    Repostería
+                                    y Coctelería
+                                </a>
+                                <a href="biotecnologia.html" class="dropdown-item text-light categoria">
+                                    <span class="material-symbols-outlined">
+                                        tenancy
+                                    </span>
+                                    Biotecnología
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="dropdown mx-auto d-flex justify-content-center">
+                            <a href="eventos.html" class="text-light nav-link"><u>Eventos</u></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="main" class="col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+                <!--Aquí se colocan los componentes html del main-->
+                <br>
+                <br>
+                <div class="container">
+                    <div class="col-12">
+                        <img src="../img/eventos.jpeg" class="img-fluid" alt="">
+                    </div>
+                    <br>
+                    <br>
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 carta_espacio">
+                            <div class="card largo_carta">
+                                <img src="../img/vacunacion.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title mx-auto d-flex justify-content-center">VACUNACION COVID 19
+                                    </h5>
+                                    <p class="card-text">
+                                    </p>
+                                    <button id="button1" type="button"
+                                        class="btn btn-dark mx-auto d-flex justify-content-center"
+                                        data-bs-toggle="modal" data-bs-target="#Modal1">
+                                        Ver más >>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 carta_espacio">
+                            <div class="card largo_carta">
+                                <img src="../img/Amor-y-amistad.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title mx-auto d-flex justify-content-center">AMOR Y AMISTAD</h5>
+                                    <p class="card-text">
+                                    </p>
+                                    <button id="button2" type="button"
+                                        class="btn btn-dark mx-auto d-flex justify-content-center"
+                                        data-bs-toggle="modal" data-bs-target="#Modal2">
+                                        Ver más >>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 carta_espacio">
+                            <div class="card largo_carta">
+                                <img src="../img/semana-andina1.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title mx-auto d-flex justify-content-center">SEMANA ANDINA</h5>
+                                    <p class="card-text">
+                                    </p>
+                                    <button id="button3" type="button"
+                                        class="btn btn-dark mx-auto d-flex justify-content-center"
+                                        data-bs-toggle="modal" data-bs-target="#Modal3">
+                                        Ver más >>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div id="card6" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 carta_espacio">
+                            <div class="card largo_carta">
+                                <img src="../img/data.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title mx-auto d-flex justify-content-center">BIG DATA</h5>
+                                    <p class="card-text">
+                                    </p>
+                                    <button id="button4" type="button"
+                                        class="btn btn-dark mx-auto d-flex justify-content-center"
+                                        data-bs-toggle="modal" data-bs-target="#Modal0">
+                                        Ver más >>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="card7" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 carta_espacio">
+                            <div class="card largo_carta">
+                                <img src="../img/image(3)2.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title mx-auto d-flex justify-content-center">POLI - SENA</h5>
+                                    <p class="card-text">
+                                    </p>
+                                    <button id="button5" type="button"
+                                        class="btn btn-dark mx-auto d-flex justify-content-center"
+                                        data-bs-toggle="modal" data-bs-target="#Modal11">
+                                        Ver más >>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="card8" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 carta_espacio">
+                            <div class="card largo_carta">
+                                <img src="../img/conv.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title mx-auto d-flex justify-content-center">Nuevos Programas</h5>
+                                    <p class="card-text">
+                                    </p>
+                                    <button id="button6" type="button"
+                                        class="btn btn-dark mx-auto d-flex justify-content-center"
+                                        data-bs-toggle="modal" data-bs-target="#Mods">
+                                        Ver más >>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="card9" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 carta_espacio">
+                            <div class="card largo_carta">
+                                <img src="../img/edt.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title mx-auto d-flex justify-content-center">EDT</h5>
+                                    <p class="card-text">
+                                    </p>
+                                    <button id="buttons" type="button"
+                                        class="btn btn-dark mx-auto d-flex justify-content-center"
+                                        data-bs-toggle="modal" data-bs-target="#Modsa">
+                                        Ver más >>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="card10" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 carta_espacio">
+                            <div class="card largo_carta">
+                                <img src="../img/globant2.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title mx-auto d-flex justify-content-center">EDT</h5>
+                                    <p class="card-text">
+                                    </p>
+                                    <button id="button10" type="button"
+                                        class="btn btn-dark mx-auto d-flex justify-content-center"
+                                        data-bs-toggle="modal" data-bs-target="#Modsi">
+                                        Ver más >>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="card11" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 carta_espacio">
+                            <div class="card largo_carta">
+                                <img src="../img/anti2.jpg" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title mx-auto d-flex justify-content-center">DIA ANTIFRAUDE</h5>
+                                    <p class="card-text">
+                                    </p>
+                                    <button id="button11" type="button"
+                                        class="btn btn-dark mx-auto d-flex justify-content-center"
+                                        data-bs-toggle="modal" data-bs-target="#Modso">
+                                        Ver más >>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="card12" class="col-xs-12 col-sm-12 col-md-6 col-lg-4 carta_espacio">
+                            <div class="card largo_carta">
+                                <img src="../img/sol.png" alt="" class="card-img-top">
+                                <div class="card-body">
+                                    <h5 class="card-title mx-auto d-flex justify-content-center">SISTEMAS SOLARES</h5>
+                                    <p class="card-text">
+                                    </p>
+                                    <button id="button12" type="button"
+                                        class="btn btn-dark mx-auto d-flex justify-content-center"
+                                        data-bs-toggle="modal" data-bs-target="#Modsp">
+                                        Ver más >>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <br>
+                </div>
+            </div>
+            <br>
+        </div>
+
+        <div class="row">
+            <div id="footer" class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <div class="row">
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <img src="../img/w3c.png" class="mx-auto d-flex justify-content-center" alt="">
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <br>
+                        <p class="mx-auto d-flex justify-content-center text-light">SENA CBAGRO ©</p>
+                        <p class="mx-auto d-flex justify-content-center text-light">Visítanos en:
+                            http://bienestarcba.blogspot.com/</p>
+                        <p class="mx-auto d-flex justify-content-center text-light">Teléfono: 15462323</p>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <br>
+                        <div class="mx-auto d-flex justify-content-center">
+                            <a href="https://www.facebook.com/cbasenamosquera" target="_blank"
+                                rel="noopener noreferrer"><img src="../img/facebook.png" alt=""></a>
+                            <a href="https://www.instagram.com/senacomunica/?hl=es-la" target="_blank"
+                                rel="noopener noreferrer"><img src="../img/instagram.png" alt=""></a>
+                            <a href="https://twitter.com/senacomunica?lang=es" target="_blank"
+                                rel="noopener noreferrer"><img src="../img/twitter.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="Modal1" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">VACUNACION COVID 19</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+
+                        <img src="../img/vacunacion.png" alt="" class="img-fluid">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="Modal2" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">AMOR Y AMISTAD</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+
+                        <img src="../img/Amor-y-amistad.png" alt="" class="img-fluid">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="Modal3" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">SEMANA ANDINA</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div style="text-align:center ;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <img src="../img/semana-andina1.png" alt="" class="img-fluid">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <img src="../img/semana-andina2.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                            <img src="../img/semana-andina3.png" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modal0" tabindex="-1" aria-labelledby="Modal0" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">BIG DATA</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div style="text-align:center ;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <img src="../img/data.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Modal11" tabindex="-1" aria-labelledby="Modal11" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">POLI - SENA</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div style="text-align:center ;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <img src="../img/image(3).png" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Mods" tabindex="-1" aria-labelledby="Mods" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Nuevos Programas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div style="text-align:center ;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <img src="../img/conv.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <a id="button7" class="btn btn-primary" href="http://oferta.senasofiaplus.edu.co/sofia-oferta/"
+                    target="_blank" rel="noopener noreferrer" role="button">Inscribete</a>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modsa" tabindex="-1" aria-labelledby="Modsa" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">EDT</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div style="text-align:center ;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <img src="../img/conv.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+                <a id="button8" class="btn btn-primary" href="https://forms.office.com/r/8nLUagaphM" target="_blank"
+                    rel="noopener noreferrer" role="button">Inscribete</a>
+
+
+                <a id="button9" class="btn btn-primary" href="https://cutt.ly/sVQHgSe " target="_blank"
+                    rel="noopener noreferrer" role="button">Tansmición</a>
+
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modsi" tabindex="-1" aria-labelledby="Modsi" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">APRENDICES - GLOBANT</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div style="text-align:center ;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <img src="../img/globant.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="Modso" tabindex="-1" aria-labelledby="Modso" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Nuevos Programas</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div style="text-align:center ;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <img src="../img/anti.jpg" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+                <a id="buttona" class="btn btn-primary"
+                    href=" https://educacionvirtual.javeriana.edu.co/tercer-dia-antifraude-presencial" target="_blank"
+                    rel="noopener noreferrer" role="button">Evento Prencensial</a>
+
+
+                <a id="buttono" class="btn btn-primary"
+                    href=" https://educacionvirtual.javeriana.edu.co/tercer-dia-int-antifraude-online" target="_blank"
+                    rel="noopener noreferrer" role="button">Evento Online</a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="Modsp" tabindex="-1" aria-labelledby="Modsp" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">SISTEMAS SOLARES</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div style="text-align:center ;" class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <img src="../img/sol.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <a id="buttonm" class="btn btn-primary" href="https://forms.office.com/r/3bLMwGwskx" target="_blank"
+                    rel="noopener noreferrer" role="button">Inscribete</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,1366 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <title>CBAGRO</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div id="header" class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+        <img src="../img/Senagro_Logo.png" alt="" class="mx-auto d-flex justify-content-center">
+      </div>
+    </div>
+    <div class="row">
+      <nav id="nav" class="navbar navbar-expand-lg navbar-dark col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+        <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav mr-auto mx-auto d-flex justify-content-center">
+            <li class="navbar-item active">
+              <a href="../index.html" class="nav-link mx-auto d-flex justify-content-center">Inicio</a>
+            </li>
+            <li class="navbar-item active">
+              <a href="quienes_somos.html" class="nav-link mx-auto d-flex justify-content-center">Quiénes Somos</a>
+            </li>
+            <li class="navbar-item active">
+              <a href="objetivos.html" class="nav-link mx-auto d-flex justify-content-center">Objetivos</a>
+            </li>
+            <li class="navbar-item active">
+              <a href="ubicanos.html" class="nav-link mx-auto d-flex justify-content-center">Cómo Llegar</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+        <div class="row" id="aside_gan">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="dropdown mx-auto d-flex justify-content-center">
+              <a href="#" class="text-light nav-link dropdown-toggle" data-toggle="dropdown">
+                Categorias
+              </a>
+              <div class="dropdown-menu dropdown-menu-dark categoria">
+                <a href="apicultura.html" class="dropdown-item text-light categoria">
+                  <span class="material-symbols-outlined">
+                    emoji_nature
+                  </span>
+                  Apicultura
+                </a>
+                <a href="especies_m.html" class="dropdown-item text-light categoria">
+                  <span class="material-symbols-outlined">
+                    cruelty_free
+                  </span>
+                  Especies Menores
+                </a>
+                <a href="ganaderia.html" class="dropdown-item text-light categoria">
+                  <span class="material-symbols-outlined">
+                    workspace_premium
+                  </span>
+                  <u> Ganadería </u>
+                </a>
+              </div>
+            </div>
+            <br>
+            <div class="dropdown mx-auto d-flex justify-content-center">
+              <a href="#" class="text-light nav-link dropdown-toggle" data-toggle="dropdown">
+                Exposiciones
+              </a>
+              <div class="dropdown-menu dropdown-menu-dark categoria">
+                <a href="reposteria.html" class="dropdown-item text-light categoria">
+                  <span class="material-symbols-outlined"> cake </span>
+                  Repostería y Coctelería
+                </a>
+                <a href="biotecnologia.html" class="dropdown-item text-light categoria">
+                  <span class="material-symbols-outlined"> tenancy </span>
+                  Biotecnología
+                </a>
+              </div>
+            </div>
+            <br>
+            <div class="dropdown mx-auto d-flex justify-content-center">
+              <a href="eventos.html" class="text-light nav-link">Eventos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="main" class="col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+        <!--Aquí se colocan los componentes html del main-->
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <img src="../img/Ganaderia_Encabezado.jpg" alt="" id="gan_encabezado">
+          </div>
+        </div>
+        <br>
+        <!--Titulo de Ganadería-->
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 carta_espacio">
+            <div class="card largo_carta">
+              <img src="../img/lechera0.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title mx-auto d-flex justify-content-center">
+                  Vaca Lechera
+                </h5>
+                <p class="card-text mx-auto d-flex justify-content-center">
+                  &nbsp;
+                </p>
+                <button type="button" class="btn boton mx-auto d-flex justify-content-center" data-bs-toggle="modal"
+                  data-bs-target="#Modal1">
+                  Saber Mas >>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 carta_espacio">
+            <div class="card largo_carta">
+              <img src="../img/lucerna0.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title mx-auto d-flex justify-content-center">
+                  Vaca Lucerna
+                </h5>
+                <p class="card-text mx-auto d-flex justify-content-center">
+                  &nbsp;
+                </p>
+                <button type="button" class="btn boton mx-auto d-flex justify-content-center" data-bs-toggle="modal"
+                  data-bs-target="#Modal2">
+                  Saber Mas >>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 carta_espacio">
+            <div class="card largo_carta">
+              <img src="../img/ojinegra0.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title mx-auto d-flex justify-content-center">
+                  Vaca Jersey
+                </h5>
+                <p class="card-text mx-auto d-flex justify-content-center">
+                  &nbsp;
+                </p>
+                <button type="button" class="btn boton mx-auto d-flex justify-content-center" data-bs-toggle="modal"
+                  data-bs-target="#Modal3">
+                  Saber Mas >>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!--Segunda hilera -->
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 carta_espacio">
+            <div class="card largo_carta">
+              <img src="../img/vela0.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title mx-auto d-flex justify-content-center">
+                  Vaca Velasquez
+                </h5>
+                <p class="card-text mx-auto d-flex justify-content-center">
+                  &nbsp;
+                </p>
+                <button type="button" class="btn boton mx-auto d-flex justify-content-center" data-bs-toggle="modal"
+                  data-bs-target="#Modal4">
+                  Saber Mas >>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 carta_espacio">
+            <div class="card largo_carta">
+              <img src="../img/sementa7.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title mx-auto d-flex justify-content-center">
+                  Semental Colombiano
+                </h5>
+                <p class="card-text mx-auto d-flex justify-content-center">
+                  &nbsp;
+                </p>
+                <button type="button" class="btn boton mx-auto d-flex justify-content-center" data-bs-toggle="modal"
+                  data-bs-target="#Modal5">
+                  Saber Mas >>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <h1 class="mx-auto d-flex justify-content-center">Productos</h1>
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 carta_espacio">
+            <div class="card largo_carta">
+              <img src="../img/leche0.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title mx-auto d-flex justify-content-center">
+                  Leche de Vacas CBA
+                </h5>
+                <p class="card-text mx-auto d-flex justify-content-center">
+                  Producto de CBAGRO
+                </p>
+                <button type="button" class="btn boton mx-auto d-flex justify-content-center" data-bs-toggle="modal"
+                  data-bs-target="#Modal6">
+                  Saber Mas >>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!--Tercera Hilera-->
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 carta_espacio">
+            <div class="card largo_carta">
+              <img src="../img/queso0.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title mx-auto d-flex justify-content-center">
+                  Queso de CBA
+                </h5>
+                <p class="card-text mx-auto d-flex justify-content-center">
+                  Producto de CBAGRO
+                </p>
+                <button type="button" class="btn boton mx-auto d-flex justify-content-center" data-bs-toggle="modal"
+                  data-bs-target="#Modal7">
+                  Saber Mas >>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 carta_espacio">
+            <div class="card largo_carta">
+              <img src="../img/ypgu0.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title mx-auto d-flex justify-content-center">
+                  Yogurt CBA
+                </h5>
+                <p class="card-text mx-auto d-flex justify-content-center">
+                  Producto de CBAGRO
+                </p>
+                <button type="button" class="btn boton mx-auto d-flex justify-content-center" data-bs-toggle="modal"
+                  data-bs-target="#Modal8">
+                  Saber Mas >>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 carta_espacio">
+            <div class="card largo_carta">
+              <img src="../img/are0.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title mx-auto d-flex justify-content-center">
+                  Arequipe Del CBA
+                </h5>
+                <p class="card-text mx-auto d-flex justify-content-center">
+                  Producto de CBAGRO
+                </p>
+                <button type="button" class="btn boton mx-auto d-flex justify-content-center" data-bs-toggle="modal"
+                  data-bs-target="#Modal9">
+                  Saber Mas >>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 carta_espacio">
+            <div class="card largo_carta">
+              <img src="../img/cuaja0.jpg" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title mx-auto d-flex justify-content-center">
+                  Cuajada del CBA
+                </h5>
+                <p class="card-text mx-auto d-flex justify-content-center">
+                  Producto de CBAGRO
+                </p>
+                <button type="button" class="btn boton mx-auto d-flex justify-content-center" data-bs-toggle="modal"
+                  data-bs-target="#Modal10">
+                  Saber Mas >>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+      </div>
+      <!--Fin del Main -->
+    </div>
+    <div class="row">
+      <div id="footer" class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+        <div class="row">
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <img src="../img/w3c.png" class="mx-auto d-flex justify-content-center" alt="">
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <br>
+            <p class="mx-auto d-flex justify-content-center text-light">
+              SENA CBAGRO ©
+            </p>
+            <p class="mx-auto d-flex justify-content-center text-light">
+              Visítanos en: http://bienestarcba.blogspot.com/
+            </p>
+            <p class="mx-auto d-flex justify-content-center text-light">
+              Teléfono: 15462323
+            </p>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <br>
+            <div class="mx-auto d-flex justify-content-center">
+              <a href="https://www.facebook.com/cbasenamosquera" target="_blank" rel="noopener noreferrer"><img
+                  src="../img/facebook.png" alt=""></a>
+              <a href="https://www.instagram.com/senacomunica/?hl=es-la" target="_blank" rel="noopener noreferrer"><img
+                  src="../img/instagram.png" alt=""></a>
+              <a href="https://twitter.com/senacomunica?lang=es" target="_blank" rel="noopener noreferrer"><img
+                  src="../img/twitter.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Modales de Cada uno-->
+
+  <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="Modal1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 img5">
+                  <img src="../img/lechera1.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img">
+                  <img src="../img/lechera2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img2">
+                  <img src="../img/lechera3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img3">
+                  <img src="../img/lechera4.jpg" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img4">
+                  <img src="../img/lechera5.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <h2 class="mx-auto d-flex justify-content-center">
+                    Vaca Lechera/ Holstein Fresian
+                  </h2>
+                  <br>
+                  <h3>Caracteristicas :</h3>
+                  <br>
+
+                  <p>
+                    El mayor desarrollo histórico de esta raza ocurrió en
+                    Nueva Zelandia con animales especiales para pastoreo y en
+                    Estados Unidos y Canada desarrollando animales bien
+                    adaptados a confinamiento. Es un animal eficiente en la
+                    producción de leche. Características físicas:<br>
+
+                    Color original blanco con negro<br>
+                    Estructura larga y estilizada<br>
+                    Animal maduro puede llegar a pesar 700 kg.<br>
+
+                    <b> <u> Sus Cuidados :</u> </b> <br>
+
+                    Es importante dotar de agua limpia y fresca a las vacas
+                    para que la tengan disponible durante todo el día. De la
+                    misma manera es aconsejable limpiar día con día los
+                    comederos y bebederos de las vacas. También hay que evitar
+                    que permanezcan durante mucho tiempo expuestos a la luz
+                    solar.
+                  </p>
+                  <br>
+                  <h3 class="mx-auto d-flex justify-content-center">
+                    Vaca Holstein / Lechera.
+                  </h3>
+                  <br>
+                  <form class="form-inline m-4">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <label class="mx-auto d-flex justify-content-center">Litros que genera al dia :</label>
+                        <select class="form-control">
+                          <option>30 Litros</option>
+                          <option>35 Litros</option>
+                          <option>40 litros</option>
+                          <option>20 Litros</option>
+                        </select>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Segunda Card de Vaca Lucerna -->
+
+  <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="Modal2" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 img5">
+                  <img src="../img/lucerna1.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img">
+                  <img src="../img/lucerna2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img2">
+                  <img src="../img/lucerna3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img3">
+                  <img src="../img/lucerna4.jpg" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img4">
+                  <img src="../img/lucerna6.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <h2 class="mx-auto d-flex justify-content-center">
+                    Vaca Lucerna
+                  </h2>
+                  <br>
+                  <h3>Caracteristicas :</h3>
+                  <br>
+
+                  <p>
+                    son animales de gran rusticidad y producción de leche y de
+                    carne. Se presenta la localización geográfica, las
+                    características zootécnicas en donde las cualidades
+                    fisiológicas de la raza se reflejan en su constitución
+                    vigorosa y saludable, son animales muy adaptables,
+                    carcateristicas fisicas : <br>
+
+                    peso promedio al nacimiento, de los machos de 39 kg y las
+                    hembras de 37 kg. <br>
+
+                    A la edad adulta los reproductores pesan, los machos entre
+                    750 y 850 kg y las hembras 450 y 500 kg <br>
+
+                    El tamaño de la raza es mediano, con una alzada promedia
+                    de 1.28 m. <br>
+
+                    <b> <u> Sus Cuidados :</u> </b> <br>
+                    Les damos a las vacas proteínas provenientes de árboles
+                    con gramíneas de alto atributo, porque son leguminosas y
+                    aportan gran cantidad de nitrógeno, por ende el pasto es
+                    muy bueno. A lo anterior se suma el apoyo de CBA porque le
+                    da garantía a la gente sobre el trabajo y a la calidad de
+                    nuestros productos.
+                  </p>
+
+                  <br>
+                  <h3 class="mx-auto d-flex justify-content-center">
+                    Vaca Lucerna
+                  </h3>
+                  <br>
+                  <form class="form-inline m-4">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <label class="mx-auto d-flex justify-content-center">Litros que genera al dia :</label>
+                        <select class="form-control">
+                          <option>10 Kg Diarios</option>
+                          <option>3000 litros Anuales</option>
+                        </select>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Tercera card Jersey-->
+
+  <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="Modal3" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 img5">
+                  <img src="../img/jersey1.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img">
+                  <img src="../img/jersey2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img2">
+                  <img src="../img/jersey3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img3">
+                  <img src="../img/jersey4.jpg" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img4">
+                  <img src="../img/jersey5.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <h2 class="mx-auto d-flex justify-content-center">
+                    Vaca Jersey
+                  </h2>
+                  <br>
+                  <h3>Caracteristicas :</h3>
+                  <br>
+
+                  <p>
+                    es una raza de ganado vacuno británico productor de leche,
+                    de pelaje marrón claro, es famosa por el alto contenido
+                    graso de su leche y por la docilidad de sus vacas
+                    carcateristicas fisicas : <br>
+
+                    Rentabilidad: Por su alto índice de conversión de pasto a
+                    leche, siete veces su peso, y por ser ésta la de mayor
+                    contenido de grasa y proteínas. <br>
+
+                    usa 69% de la energía consumida para la producción de
+                    leche contra 61% que usan las vacas de razas más grandes
+                    <br>
+
+                    <b> <u> Sus Cuidados :</u> </b> <br>
+
+                    • Colocar el comedero cerca del recipiente de agua. La
+                    vaca se alimenta de heno y grano. Deje un espacio entre 11
+                    a 15 libras de grano por la alimentación diaria de cada
+                    vaca. Monitor si es demasiado o demasiado poco teniendo en
+                    cuenta cuánto y cuánto come la vaca. Disminuir o aumentar
+                    por consiguiente la cantidad de alimento. <br>
+
+                    • Poner dos fardos de heno en el centro de la Dehesa.
+                    Permitir la vaca a pastar según sea necesario y asegúrese
+                    de que hay una amplia cantidad de heno disponible. •
+                    Preste atención regular a su vaca de Jersey por lo que se
+                    acostumbra a ser manipulados.
+                  </p>
+
+                  <br>
+                  <h3 class="mx-auto d-flex justify-content-center">
+                    Vaca Jersey
+                  </h3>
+                  <br>
+                  <form class="form-inline m-4">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <label class="mx-auto d-flex justify-content-center">Litros que genera al dia :</label>
+                        <select class="form-control">
+                          <option>15 Litros</option>
+                          <option>20 Litros</option>
+                        </select>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Cuarta card de  Velazques -->
+  <div class="modal fade" id="Modal4" tabindex="-1" aria-labelledby="Modal4" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 img5">
+                  <img src="../img/velas1.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img">
+                  <img src="../img/velas2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img2">
+                  <img src="../img/velas3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img3">
+                  <img src="../img/velas4.jpg" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img4">
+                  <img src="../img/velas5.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <h2 class="mx-auto d-flex justify-content-center">
+                    Vaca Velasquez
+                  </h2>
+                  <br>
+                  <h3>Caracteristicas :</h3>
+                  <br>
+                  <p>
+                    La raza Velásquez aporta precocidad, mansedumbre, pero por
+                    sobre todo adaptación, esta última característica le
+                    permite desarrollarse bien en condiciones extremas como
+                    pueden ser las sabanas inundables del Casanare, en la
+                    cuales imperan la humedad en el suelo, forrajes toscos y
+                    parásitos externos que menoscaban la salud de los bovinos
+                    en detrimento de la producción, como también se desarrolla
+                    de manera eficiente en zonas secas como el departamento de
+                    Santander y la Guajira. <br>
+
+                    1. Genéticamente topo. <br>
+
+                    2. Color que va del amarillo al rojo oscuro.<br>
+
+                    3. Pelo corto, brillante y liso.<br>
+
+                    4. Piel suelta muy móvil provista de glándulas sudoríparas
+                    y sebáceas.<br>
+
+                    5. Cabeza de perfil recto, frente ancha con testuz angosto
+                    y alto, trompa ancha con grandes ollares, orejas de
+                    mediano tamaño. <br>
+
+                    6. Cuello corto, machos con buen morrillo delante de la
+                    cruz. <br>
+
+                    7. Papada de mediano tamaño. <br>
+
+                    <b> <u> Sus Cuidados :</u> </b> <br>
+
+                    Los forrajes secos más comunes que se pueden ofrecer al
+                    ganado de corral son heno de zacate Pangola, Tanzania,
+                    Mombaza, Estrella de África, y rastrojo de maíz molido
+                    <br>
+
+                    sistemas de pastoreo se recomienda dar porciones de
+                    suplemento antes del primer ordeño de la mañana. Luego,
+                    como desayuno, dejarlos pastar, y volver a permitirles
+                    comer suplemento y más forraje hasta terminada la tarde.
+                    El agua nunca debe faltar en los predios
+                  </p>
+
+                  <br>
+                  <h3 class="mx-auto d-flex justify-content-center">
+                    Vaca Velasquez
+                  </h3>
+                  <br>
+                  <form class="form-inline m-4">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <label class="mx-auto d-flex justify-content-center">Litros que genera al dia:</label>
+                        <select class="form-control">
+                          <option>8 Litros</option>
+                          <option>7 Litros</option>
+                          <option>7.5 Litros</option>
+                        </select>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Quinta Card de Semental -->
+
+  <div class="modal fade" id="Modal5" tabindex="-1" aria-labelledby="Modal5" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 img5">
+                  <img src="../img/sementa1.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img">
+                  <img src="../img/sementa2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img2">
+                  <img src="../img/sementa3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img3">
+                  <img src="../img/sementa4.jpg" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img4">
+                  <img src="../img/sementa5.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <h2 class="mx-auto d-flex justify-content-center">
+                    Semental Colombiano
+                  </h2>
+                  <br>
+                  <h3>Caracteristicas :</h3>
+                  <br>
+                  <p>
+                    Los simmentales son conocidos como la raza pesada en el
+                    sector ganadero, los machos pueden llegar a pesar hasta
+                    1.080 kg con alturas de hasta 144 cms a la cruz, lo cual
+                    mejora la capacidad de competencia frente a otras razas.
+                    Es una raza con capacidad de adaptación a climas
+                    extremos.<br>
+
+                    Aquí entran detalles como cabeza chica, orejas cortas,
+                    frente amplia y plana, ojos grandes y bien posicionados a
+                    los lados de la cabeza, ollares no muy cerrados,
+                    musculatura atlética y definida y pecho no muy angosto
+                    pero no muy abierto <br>
+
+                    <b> <u> Sus Cuidados :</u> </b> <br>
+
+                    Los simmentales son conocidos como la raza pesada en el
+                    sector ganadero, los machos pueden llegar a pesar hasta
+                    1.080 kg con alturas de hasta 144 cms a la cruz, lo cual
+                    mejora la capacidad de competencia frente a otras razas.
+                    Es una raza con capacidad de adaptación a climas
+                    extremos<br>
+
+                    son muy fuertes y se caracterizan por su crecimiento
+                    rápido y al igual, su vida reproductiva es larga. Las
+                    hembras de esta raza se caracterizan por rendimiento alto
+                    de producción de leche y su fuerte instinto maternal lo
+                    cual contribuye en gran parte con el crecimiento del
+                    ternero.
+                  </p>
+
+                  <br>
+                  <h3 class="mx-auto d-flex justify-content-center">
+                    Simmental
+                  </h3>
+                  <br>
+                  <form class="form-inline m-4">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <label class="mx-auto d-flex justify-content-center">Litros de Hembra que genera al dia
+                          :</label>
+                        <select class="form-control">
+                          <option>
+                            15 Litros (Mas Proteina/Contenido Graso)
+                          </option>
+                        </select>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Sexta Card  Leche del CBA-->
+
+  <div class="modal fade" id="Modal6" tabindex="-1" aria-labelledby="Modal6" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 img5">
+                  <img src="../img/leche1.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img">
+                  <img src="../img/leche2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img2">
+                  <img src="../img/leche3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img3">
+                  <img src="../img/leche4.jpg" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img4">
+                  <img src="../img/leche5.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <h2 class="mx-auto d-flex justify-content-center">
+                    Leche de Calidad CBA
+                  </h2>
+                  <br>
+                  <h3>Produccion :</h3>
+                  <br>
+                  <p>
+                    1. Tener listos y limpios lo implementos necesarios para
+                    el ordeño: balde, asiento, lazos, colador.
+                    <br>
+
+                    2. El ordeñador debe lavarse muy bien las manos con
+                    abundante agua y jabón.
+                    <br>
+
+                    3. Lavar los pezones de la vaca con agua limpia y secarlos
+                    con una servilleta o papel periódico desechable, ya que si
+                    no se secan es probable que impurezas caigan en la leche y
+                    se contamine.
+                    <br>
+
+                    4. Extraer los chorros de cada pezón sobre una cubeta o
+                    vasija de fondo oscuro, con el propósito de verificar que
+                    no haya alguna anormalidad en la leche como pueden ser
+                    grumos, lo que podría indicar que el animal tiene
+                    mastitis. (Lea: 40 ganaderos de Totoró fueron certificados
+                    en normas de ordeño)
+                    <br>
+
+                    5. Una vez comprobado lo anterior, el ordeñador puede
+                    proceder a realizar su actividad. Esta ya depende de su
+                    experiencia y la forma en la que se sienta cómodo. Puede
+                    empezar por los cuartos delanteros y luego los de atrás o
+                    por los laterales en forma diagonal.
+                    <br>
+
+                    6. Al terminar de extraer la leche, se deben sellar los
+                    pezones de la vaca, por lo que se le aplica un spray o
+                    desinfectante de pezones. Esto se hace con el propósito de
+                    desinfectar el área trabajada y así se evita la mastitis
+                    en la res.
+                    <br>
+
+                    7. Luego se procede al llenado de las cantinas, por lo que
+                    para pasar la leche del balde al recipiente se debe usar
+                    un colador limpio o lienzo, a fin de evitar que el lácteo
+                    lleve pelos o impurezas que perjudiquen su calidad. Una
+                    vez terminado la operación, se tapan las cantinas. (Lea:
+                    Informe: Fedegán y Sena, 14 años trabajando por la
+                    ganadería)
+                    <br>
+
+                    8. Finalmente, el lácteo se debe enfriar, por lo que si el
+                    ganadero tiene tanque frío, la puede depositar allí o se
+                    puede depositar la cantina en una tina con agua limpia,
+                    para que se conserve con buena temperatura.
+                    <br>
+
+                    <b> <u> Sus Cuidados :</u> </b>
+                    <br>
+
+                    Para limpiarlas, se usa un detergente alcalino que elimina
+                    los depósitos de grasa y proteína, alternando con un
+                    lavado con acido para eliminar los residuos de minerales
+                    (“piedra de la leche”). La mejor defensa contra la mamitis
+                    es una higiene estricta antes y después del ordeño.
+                    <br>
+
+                    ¿Que pasa si la tomo sin limpiarla?
+                    <br>
+
+                    La leche recién ordeñada puede ser el transporte perfecto
+                    para que bacterias como la campylobacter, E. Coli,
+                    Salmonella, Listeria, Yersinia enterocolitica,
+                    Staphylococcus aureus, entre otras, pasen del animal a
+                    nuestro estómago y nos produzcan una intoxicación
+                    alimentaria, según Martín de Santos
+                  </p>
+
+                  <br>
+                  <h3 class="mx-auto d-flex justify-content-center">
+                    Leche del CBA (En Venta)
+                  </h3>
+                  <br>
+                  <form class="form-inline m-4">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <label class="mx-auto d-flex justify-content-center">Disponibles :</label>
+                        <select class="form-control">
+                          <option>Leche desapterurizada</option>
+                          <option>Leche Normal</option>
+                        </select>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Septima card Queso del CBA -->
+
+  <div class="modal fade" id="Modal7" tabindex="-1" aria-labelledby="Modal7" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 img5">
+                  <img src="../img/queso1.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img">
+                  <img src="../img/queso2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img2">
+                  <img src="../img/queso3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img3">
+                  <img src="../img/queso4.jpg" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img4">
+                  <img src="../img/queso5.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <h2 class="mx-auto d-flex justify-content-center">
+                    Queso del CBA
+                  </h2>
+                  <br>
+                  <h3>Produccion :</h3>
+                  <br>
+                  <p>
+                    La leche como base. <br>
+                    Selección y tratamiento de la leche. <br>
+                    Coagulación de la leche. <br>
+                    Procesamiento de la cuajada. <br>
+                    Prequeso. <br>
+                    Conformado y prensado. <br>
+                    Baño de sal. <br>
+                    Maduración y afinamiento. <br>
+
+                    <b><u>Sus Cuidados : </u></b>
+                    El queso es un alimento vivo y debe conservarse en su
+                    sitio fresco, por eso, debe meterse en la nevera y sacarlo
+                    unos minutos antes de comerlo para que esté a temperatura
+                    ambiente. La temperatura exacta de conservación varía
+                    según el tipo de queso.
+                  </p>
+                  <br>
+                  <h3 class="mx-auto d-flex justify-content-center">
+                    Queso del CBA
+                  </h3>
+                  <br>
+                  <form class="form-inline m-4">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <label class="mx-auto d-flex justify-content-center">Disponibles :</label>
+                        <select class="form-control">
+                          <option>Queso Normal</option>
+                          <option>Queso de Cabra</option>
+                          <option>Queso Para Cuajadas</option>
+                        </select>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Octava Card Yogurt del CBA  -->
+
+  <div class="modal fade" id="Modal8" tabindex="-1" aria-labelledby="Modal8" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 img5">
+                  <img src="../img/yogu1.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img">
+                  <img src="../img/yogu2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img2">
+                  <img src="../img/yogu3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img3">
+                  <img src="../img/yogu4.png" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img4">
+                  <img src="../img/yogu5.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <h2 class="mx-auto d-flex justify-content-center">
+                    Yogurt del CBA
+                  </h2>
+                  <br>
+                  <h3>Produccion :</h3>
+                  <br>
+                  <p>
+                    Calentar la leche. Para empezar, vierte la leche en un
+                    cazo a fuego medio. <br>
+                    Enfría la leche. <br>
+                    Atempera la leche y el yogur. <br>
+                    Añadir sabores. <br>
+                    Llena los envases de yogur. <br>
+                    Programa la yogurtera. <br>
+                    Refrigera el yogur. <br>
+
+                    <b> <u> Sus Cuidados : </u> </b><br>
+
+                    Han de tener un cierre hermético. Conservar la mezcla
+                    durante 12 horas a una temperatura constante de 25º.
+                    Guardar en el frigorífico. Anota la fecha de elaboración y
+                    calcula una semana como mucho para que no pierdan sus
+                    propiedades
+                    <br>
+                    ¿Hongo necesario para hacer el Yogurt CBA? El kéfir es un
+                    hongo, el cual se nutre de leche y la hace fermentar, como
+                    resultado se obtiene una especie de yogur
+                  </p>
+
+                  <br>
+                  <h3 class="mx-auto d-flex justify-content-center">
+                    Yogurt del CBA
+                  </h3>
+                  <br>
+                  <form class="form-inline m-4">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <label class="mx-auto d-flex justify-content-center">Sabores:</label>
+                        <select class="form-control">
+                          <option>Yogurt de Araza</option>
+                          <option>Yogurt Normal</option>
+                          <option>Yogurt con Trozos</option>
+                        </select>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Novena card Arequipe del CBA -->
+
+  <div class="modal fade" id="Modal9" tabindex="-1" aria-labelledby="Modal9" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 img5">
+                  <img src="../img/are1.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img">
+                  <img src="../img/are2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img2">
+                  <img src="../img/are3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img3">
+                  <img src="../img/are4.jpg" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img4">
+                  <img src="../img/are5.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <h2 class="mx-auto d-flex justify-content-center">
+                    Arequipe del CBA
+                  </h2>
+                  <br>
+                  <h3>Produccion :</h3>
+                  <br>
+                  <p>
+                    1 Se pone la leche con el azúcar, se le agrega el
+                    bicarbonato la sal y la canela, revolviendo para que se
+                    incorporen bien los ingredientes. <br>
+
+                    2 Conservar en el fuego revolviendo de vez en cuando para
+                    que espese. <br>
+
+                    3 Cuando comience a tomar color amarillo se baja el fuego
+                    a minimo y revolver continuamente para evitar que se pegue
+                    o ahume. <br>
+
+                    4 Cuando se vea el fondo de la olla bajarlo y colocarlo en
+                    otro recipiente. Comerlo frio. <br>
+
+                    <b> <u> Sus Cuidados : </u> </b> <br>
+
+                    Es un producto que tiene mucha cantidad de azúcar lo que
+                    hace que tenga poca presión osmótica, es decir poca agua
+                    disponible para que los microorganismos puedan
+                    desarrollarse en él, <br>
+
+                    ¿Cuanto dura el arerquipe del CBA?<br>
+
+                    El tiempo de vida útil calculado es de 7.5 (días), es
+                    decir que se dis- pone de una semana para vender el envase
+                    con dulce de leche, antes que los cristales de lactosa
+                    alcancen un tamaño de 30 (mm) y el con- sumidor detecte en
+                    su boca sensaciones de corpúsculos pequeños, fenómeno
+                    denominado arenosidad.
+                  </p>
+
+                  <br>
+                  <h3 class="mx-auto d-flex justify-content-center">
+                    Arequipe del CBA
+                  </h3>
+                  <br>
+                  <form class="form-inline m-4">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <label class="mx-auto d-flex justify-content-center">¿Que contiene el Arequipe del CBA ?
+                          :</label>
+                        <select class="form-control">
+                          <option>Calcio</option>
+                          <option>Hierro</option>
+                          <option>Vitamina A,D,C</option>
+                        </select>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--Decima Card Cuajada del CBA  -->
+
+  <div class="modal fade" id="Modal10" tabindex="-1" aria-labelledby="Modal10" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 img5">
+                  <img src="../img/cuaja2.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img">
+                  <img src="../img/cuaja1.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img2">
+                  <img src="../img/cuaja3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img3">
+                  <img src="../img/cuaja4.jpg" class="img-fluid" alt="">
+                </div>
+
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img4">
+                  <img src="../img/cuaja5.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <h2 class="mx-auto d-flex justify-content-center">
+                    Cuajada del CBA
+                  </h2>
+                  <br>
+                  <h3>Produccion :</h3>
+                  <br>
+                  <p>
+                    ingredientes <br>
+
+                    1 litro de leche fresca entera (comprueba que sea leche
+                    pasteurizada, no uperisada). <br>
+                    50 gr de leche en polvo entera. <br>
+                    6 gotas de cuajo por tarro (42 gotas aproximadamente).
+                    <br>
+                    Una pizca de sal. <br>
+
+                    Produccion de la cuajada casera: <br>
+                    – Pon a calentar la leche fresca en un cazo con una pizca
+                    de sal hasta que llegue a los 54 ºC. Si no tienes un
+                    termómetro de cocina, sabrás que está a esta temperatura
+                    cuando la leche empiece a humear.<br>
+
+                    – Retira el cazo del fuego y añade la leche en polvo.
+                    Mezcla bien hasta que quede totalmente integrada. <br>
+
+                    – Echa 6 gotas de cuajo en cada tarro. Si tienes vasitos
+                    de barro, mejor . <br>
+
+                    – Reparte la mezcla de leche en los diferentes tarros.<br>
+
+                    – Tápalos con papel de aluminio y déjalos en un lugar sin
+                    corrientes de aire<br>
+                    hasta que cuajen. A nosotros nos gusta dejarlos en el
+                    microondas<br>
+                    –apagado- para que mantengan la temperatura.<br>
+
+                    – En una hora aproximadamente verás que la leche ha
+                    cuajado. Tapa los vasitos con papel de aluminio y guarda
+                    las cuajadas caseras en el frigorífico. <br>
+
+                    – Sírvelas acompañadas de nueces y miel y disfruta de este
+                    sencillo postre casero. <br>
+
+                    <b> <u> Sus Cuidados : </u> </b> <br>
+
+                    Dejar reposar en un lugar no frío (unas dos horas). Una
+                    vez cuajada la leche guardarla en la nevera. Dura más o
+                    menos una semana.
+                  </p>
+                  <br>
+                  <h3 class="mx-auto d-flex justify-content-center">
+                    Cuajada del CBA
+                  </h3>
+                  <br>
+                  <form class="form-inline m-4">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <label class="mx-auto d-flex justify-content-center">Compartir con :</label>
+                        <select class="form-control">
+                          <option>Canela en Polvo</option>
+                          <option>Cafe</option>
+                          <option>Azucar y Fresas</option>
+                        </select>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+  <title>CBAGRO</title>
+</head>
+
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div id="header" class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+        <img src="../img/Senagro_Logo.png" alt="" class="mx-auto d-flex justify-content-center">
+      </div>
+    </div>
+    <div class="row">
+      <nav id="nav" class="navbar navbar-expand-lg navbar-dark col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+        <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav mr-auto mx-auto d-flex justify-content-center">
+            <li class="navbar-item active">
+              <a href="../index.html" class="nav-link mx-auto d-flex justify-content-center">Inicio</a>
+            </li>
+            <li class="navbar-item active">
+              <a href="quienes_somos.html" class="nav-link mx-auto d-flex justify-content-center">Quiénes Somos</a>
+            </li>
+            <li class="navbar-item active">
+              <a href="objetivos.html" class="nav-link mx-auto d-flex justify-content-center">Objetivos</a>
+            </li>
+            <li class="navbar-item active">
+              <a href="ubicanos.html" class="nav-link mx-auto d-flex justify-content-center">Cómo Llegar</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="row">
+      <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+        <div class="row" id="aside_apic">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="dropdown mx-auto d-flex justify-content-center">
+              <a href="#" class="text-light nav-link dropdown-toggle" data-toggle="dropdown">
+                Categorias
+              </a>
+              <div class="dropdown-menu dropdown-menu-dark categoria">
+                <a href="apicultura.html" class="dropdown-item text-light categoria">
+                  <span class="material-symbols-outlined">
+                    emoji_nature
+                  </span>
+                  <u>Apicultura</u>
+                </a>
+                <a href="especies_m.html" class="dropdown-item text-light categoria">
+                  <span class="material-symbols-outlined">
+                    cruelty_free
+                  </span>
+                  Especies Menores
+                </a>
+                <a href="ganaderia.html" class="dropdown-item text-light categoria">
+                  <span class="material-symbols-outlined">
+                    workspace_premium
+                  </span>
+                  Ganadería
+                </a>
+              </div>
+            </div>
+            <br>
+            <div class="dropdown mx-auto d-flex justify-content-center">
+              <a href="#" class="text-light nav-link dropdown-toggle" data-toggle="dropdown">
+                Exposiciones
+              </a>
+              <div class="dropdown-menu dropdown-menu-dark categoria">
+                <a href="reposteria.html" class="dropdown-item text-light categoria">
+                  <span class="material-symbols-outlined"> cake </span>
+                  Repostería y Coctelería
+                </a>
+                <a href="biotecnologia.html" class="dropdown-item text-light categoria">
+                  <span class="material-symbols-outlined"> tenancy </span>
+                  Biotecnología
+                </a>
+              </div>
+            </div>
+            <br>
+            <div class="dropdown mx-auto d-flex justify-content-center">
+              <a href="eventos.html" class="text-light nav-link">Eventos</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="main" class="col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <img src="../img/Apicultura_Encabezado.jpg" alt="" id="apic_encabezado">
+          </div>
+        </div>
+        <br>
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <p id="apic_texto">
+              La apicultura es la actividad dedicada a la crianza de las
+              abejas y a prestarles los cuidados necesarios con el objetivo de
+              obtener y consumir los productos que son capaces de elaborar y
+              recolectar. El principal producto que se obtiene de esta
+              actividad es la miel. La miel es un factor de beneficio para los
+              humanos.
+
+              <br>
+              <br>
+
+              Un beneficio indirecto producto de la actividad de pecoreo que
+              realizan las abejas corresponde a la polinización que realizan
+              estos insectos. El cultivo similar de otras abejas productoras
+              de miel (melipónidos) se denomina meliponicultura. La
+              vespicultura es la explotación de las escasas especies de
+              avispas mielíferas. (Fuente: Wikipedia)
+
+              <br>
+              <br>
+
+              En el CBA nos encargamos que la actividad de la apicultura sea
+              de forma responsable cumpliendo todas las normas requeridas para
+              no afectar el bienestar de nuestros animales ni le bienestar del
+              medio ambiente, generando como resultado productos de buena
+              calidad.
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <h3 id="apic_titulo">Productos</h3>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row">
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 carta_espacio">
+                <div class="card largo_carta">
+                  <img src="../img/miel_portada.jpg" class="card-img-top" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title mx-auto d-flex justify-content-center">
+                      Miel de abejas
+                    </h5>
+                    <p class="card-text mx-auto d-flex justify-content-center">
+                      Producto de CBAGRO
+                    </p>
+                    <button type="button" class="btn boton mx-auto d-flex justify-content-center" data-bs-toggle="modal"
+                      data-bs-target="#Modal1">
+                      Ver más >>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 carta_espacio">
+                <div class="card largo_carta">
+                  <img src="../img/Vela_portada.jpg" class="card-img-top" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title mx-auto d-flex justify-content-center">
+                      Velas con cera de abejas
+                    </h5>
+                    <p class="card-text mx-auto d-flex justify-content-center">
+                      Producto de CBAGRO
+                    </p>
+                    <button type="button" class="btn boton mx-auto d-flex justify-content-center" data-bs-toggle="modal"
+                      data-bs-target="#Modal2">
+                      Ver más >>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 carta_espacio">
+                <div class="card largo_carta">
+                  <img src="../img/propoleo_portada.jpg" class="card-img-top" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title mx-auto d-flex justify-content-center">
+                      Jalea Real
+                    </h5>
+                    <p class="card-text mx-auto d-flex justify-content-center">
+                      Producto de CBAGRO
+                    </p>
+                    <button type="button" class="btn boton mx-auto d-flex justify-content-center" data-bs-toggle="modal"
+                      data-bs-target="#Modal3">
+                      Ver más >>
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-xs-12 col-sm-12 col-md-6 col-lg-3 carta_espacio">
+                <div class="card largo_carta">
+                  <img src="../img/jalea_portada.jpg" class="card-img-top" alt="">
+                  <div class="card-body">
+                    <h5 class="card-title mx-auto d-flex justify-content-center">
+                      Los Propóleos
+                    </h5>
+                    <p class="card-text mx-auto d-flex justify-content-center">
+                      Producto de CBAGRO
+                    </p>
+                    <button type="button" class="btn boton mx-auto d-flex justify-content-center" data-bs-toggle="modal"
+                      data-bs-target="#Modal4">
+                      Ver más >>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br>
+      </div>
+    </div>
+    <div class="row">
+      <div id="footer" class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+        <div class="row">
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <img src="../img/w3c.png" class="mx-auto d-flex justify-content-center" alt="">
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <br>
+            <p class="mx-auto d-flex justify-content-center text-light">
+              SENA CBAGRO ©
+            </p>
+            <p class="mx-auto d-flex justify-content-center text-light">
+              Visítanos en: http://bienestarcba.blogspot.com/
+            </p>
+            <p class="mx-auto d-flex justify-content-center text-light">
+              Teléfono: 15462323
+            </p>
+          </div>
+          <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+            <br>
+            <div class="mx-auto d-flex justify-content-center">
+              <a href="https://www.facebook.com/cbasenamosquera" target="_blank" rel="noopener noreferrer"><img
+                  src="../img/facebook.png" alt=""></a>
+              <a href="https://www.instagram.com/senacomunica/?hl=es-la" target="_blank" rel="noopener noreferrer"><img
+                  src="../img/instagram.png" alt=""></a>
+              <a href="https://twitter.com/senacomunica?lang=es" target="_blank" rel="noopener noreferrer"><img
+                  src="../img/twitter.png" alt=""></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="Modal1" tabindex="-1" aria-labelledby="Modal1" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 img5">
+                  <img src="../img/miel1.jpeg" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img">
+                  <img src="../img/miel2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img2">
+                  <img src="../img/miel3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img3">
+                  <img src="../img/miel4.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img4">
+                  <img src="../img/miel5.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <h2 class="mx-auto d-flex justify-content-center">
+                    Miel de abejas
+                  </h2>
+                  <br>
+                  <h3>Descripción:</h3>
+                  <br>
+                  <p>
+                    Miel de alta calidad procesada directamente en nuestro
+                    centro, un alimento muy nutritivo que aporta vitaminas A,
+                    E, K, B1, B2, B6, niacina, C, B5; enzimas, hormonas y
+                    posee también una variedad considerable de antioxidantes.
+                    Un producto que puede ser de gran utilidad para diferentes
+                    preparaciones gastronómicas.
+                  </p>
+                  <br>
+                  <h3 class="mx-auto d-flex justify-content-center">
+                    &nbsp;
+                  </h3>
+                  <br>
+                  <form class="form-inline m-4">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <label class="mx-auto d-flex justify-content-center">Unidades:</label>
+                        <input type="number" class="form-control" min="0">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="Modal2" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 img5">
+                  <img src="../img/Vela1.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img">
+                  <img src="../img/Vela2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img2">
+                  <img src="../img/Vela3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img3">
+                  <img src="../img/Vela4.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img4">
+                  <img src="../img/Vela5.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <h2 class="mx-auto d-flex justify-content-center">
+                    Velas con cera de abejas
+                  </h2>
+                  <br>
+                  <h3>Descripción:</h3>
+                  <br>
+                  <p>
+                    Realizadas artesanalmente, las velas con cera de abejas
+                    son uno de los múltiples usos que se le puede dar a este
+                    derivado. Vienen en diferentes diseños hechos a mano y con
+                    materiales reciclables para dar estilo a tu hogar.
+                    <br>
+                    <br>
+                    Las velas de cera de abeja no dejan residuos y son muy
+                    beneficiosas para nuestra salud. El aroma natural que
+                    desprenden las velas de cera de abejas ayuda en procesos
+                    catarrales, asma o alergias. Facilitan la respiración y
+                    ayudan a un descanso profundo. En algunos lugares son
+                    utilizadas para limpiezas energéticas.
+                  </p>
+                  <br>
+                  <h3 class="mx-auto d-flex justify-content-center">
+                    &nbsp;
+                  </h3>
+                  <br>
+                  <form class="form-inline m-4">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <label class="mx-auto d-flex justify-content-center">Unidades:</label>
+                        <input type="number" class="form-control" min="0">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="Modal3" tabindex="-1" aria-labelledby="Modal3" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 img5">
+                  <img src="../img/propoleo1.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img">
+                  <img src="../img/propoleo2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img2">
+                  <img src="../img/propoleo3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img3">
+                  <img src="../img/propoleo4.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img4">
+                  <img src="../img/propoleo5.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <h2 class="mx-auto d-flex justify-content-center">
+                    Jalea Real
+                  </h2>
+                  <br>
+                  <h3>Descripción:</h3>
+                  <br>
+                  <p>
+                    Es un producto que se le puede dar múltiples usos o se
+                    puede consumir en dosis recomendadas, es rico en vitaminas
+                    del grupo B y minerales como: potasio, calcio, sodio,
+                    cinc, hierro, cobre y manganeso. Que puede ayudar aumentar
+                    la energía corporal, mejorar el rendimiento físico y
+                    mental, aumentar las defensas, regular trastornos
+                    digestivos, a normalizar los niveles de colesterol,
+                    triglicéridos y glucosa, aumentar la hemoglobina, sirve
+                    como antiséptico, retarda el envejecimiento y ayuda a
+                    recuperar el peso y el apetito.
+                  </p>
+                  <br>
+                  <h3 class="mx-auto d-flex justify-content-center">
+                    &nbsp;
+                  </h3>
+                  <br>
+                  <form class="form-inline m-4">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <label class="mx-auto d-flex justify-content-center">Unidades:</label>
+                        <input type="number" class="form-control" min="0">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade" id="Modal4" tabindex="-1" aria-labelledby="Modal4" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 img5">
+                  <img src="../img/jalea1.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img">
+                  <img src="../img/jalea2.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img2">
+                  <img src="../img/jalea3.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img3">
+                  <img src="../img/jalea4.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-6 col-lg-3 img4">
+                  <img src="../img/jalea5.jpg" class="img-fluid" alt="">
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6">
+              <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                  <h2 class="mx-auto d-flex justify-content-center">
+                    Los Propóleos
+                  </h2>
+                  <br>
+                  <h3>Descripción:</h3>
+                  <br>
+                  <p>
+                    Un ingrediente que está relacionado con sus usos médicos
+                    porque ayuda a combatir virus, bacterias y hongos; otros
+                    usos que se le puede dar es que ayuda a desinflamar y a
+                    curar anomalías en la piel. Rara vez se puede conseguir en
+                    su forma pura por ello aprovechando nuestro cultivo
+                    ofrecemos este importante producto.
+                  </p>
+                  <br>
+                  <h3 class="mx-auto d-flex justify-content-center">
+                    &nbsp;
+                  </h3>
+                  <br>
+                  <form class="form-inline m-4">
+                    <div class="row">
+                      <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        <label class="mx-auto d-flex justify-content-center">Unidades:</label>
+                        <input type="number" class="form-control" min="0">
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

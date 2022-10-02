@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <title>CBAGRO</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div id="header" class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <img src="../img/Senagro_Logo.png" alt="" class="mx-auto d-flex justify-content-center">
+            </div>
+        </div>
+        <div class="row">
+            <nav id="nav"
+                class="navbar navbar-expand-lg navbar-dark col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <button class="navbar-toggler" data-target="#menu" data-toggle="collapse" type="button">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav mr-auto mx-auto d-flex justify-content-center">
+                        <li class="navbar-item active">
+                            <a href="../index.html" class="nav-link mx-auto d-flex justify-content-center">Inicio</a>
+                        </li>
+                        <li class="navbar-item active">
+                            <a href="quienes_somos.html" class="nav-link mx-auto d-flex justify-content-center">Quiénes Somos</a>
+                        </li>
+                        <li class="navbar-item active">
+                            <a href="objetivos.html" class="nav-link mx-auto d-flex justify-content-center">Objetivos</a>
+                        </li>
+                        <li class="navbar-item active">
+                            <a href="ubicanos.html" class="nav-link mx-auto d-flex justify-content-center active">Cómo Llegar</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+
+
+
+
+        <div class="row">
+            <div class="col-sm-2 col-md-2 col-lg-2 col-xl-2 col-xxl-2">
+                <div class="row" id="aside_map">
+                    <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <div class="dropdown mx-auto d-flex justify-content-center">
+                            <a href="#" class="text-light nav-link dropdown-toggle" data-toggle="dropdown">
+                                Categorias
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-dark categoria">
+                                <a href="apicultura.html" class="dropdown-item text-light categoria">
+                                    <span class="material-symbols-outlined">
+                                        emoji_nature
+                                    </span>
+                                    Apicultura
+                                </a>
+                                <a href="especies_m.html" class="dropdown-item text-light categoria">
+                                    <span class="material-symbols-outlined">
+                                        cruelty_free
+                                    </span>
+                                    Especies
+                                    Menores
+                                </a>
+                                <a href="ganaderia.html" class="dropdown-item text-light categoria">
+                                    <span class="material-symbols-outlined">
+                                        workspace_premium
+                                    </span>
+                                    Ganadería
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="dropdown mx-auto d-flex justify-content-center">
+                            <a href="#" class="text-light nav-link dropdown-toggle" data-toggle="dropdown">
+                                Exposiciones
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-dark categoria">
+                                <a href="reposteria.html" class="dropdown-item text-light categoria">
+                                    <span class="material-symbols-outlined">
+                                        cake
+                                    </span>
+                                    Repostería
+                                    y Coctelería
+                                </a>
+                                <a href="biotecnologia.html" class="dropdown-item text-light categoria">
+                                    <span class="material-symbols-outlined">
+                                        tenancy
+                                    </span>
+                                    Biotecnología
+                                </a>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="dropdown mx-auto d-flex justify-content-center">
+                            <a href="eventos.html" class="text-light nav-link">Eventos</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="main" class="col-12 col-sm-10 col-md-10 col-lg-10 col-xl-10 col-xxl-10">
+                <h1 class="title_map mx-auto d-flex justify-content-center display-1">Ubicanos</h1>
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                        <iframe class="map"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15905.503575015211!2d-74.20909989340822!3d4.704591472418052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9d58cf6e291b%3A0x8946ec678fcf04b4!2sSENA%20Mosquera%20-%20Centro%20de%20Biotecnolog%C3%ADa%20Agropecuaria%20(CBA)!5e0!3m2!1ses!2sco!4v1663436151615!5m2!1ses!2sco"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+
+                        <h5><span class="material-symbols-outlined">
+                                check_circle
+                            </span><strong>Latitud:</strong></h5>
+                        <p>4º 40’ 9. 34” Latitud norte</p>
+
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+
+                        <h5><span class="material-symbols-outlined">
+                                check_circle
+                            </span><strong>Longitud:</strong></h5>
+                        <p>74º 15’ 5. 07” Longitud oeste.</p>
+
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+
+                        <h5><span class="material-symbols-outlined">
+                                check_circle
+                            </span><strong>Clasificacion del suelo:</strong></h5>
+                        <p>Suelo Suburbano Tradicional.</p>
+
+
+
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+
+                        <h5 class="text_fun">
+                            <strong>Funcionamiento del Centro de Formación:</strong>
+                        </h5>
+
+                    </div>
+
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+
+                        <h5><span class="material-symbols-outlined">
+                                check_circle
+                            </span><strong>Dias de Fundionamiento:</strong></h5>
+                        <p>lunes a sabado.</p>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+
+                        <h5><span class="material-symbols-outlined">
+                                check_circle
+                            </span><strong>Jornadas:</strong></h5>
+                        <ul>
+                            <li>Diurna</li>
+                            <li>Tarde</li>
+                            <li>Noche</li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
+
+                        <h5><span class="material-symbols-outlined">
+                                check_circle
+                            </span><strong>Promedio de Funcionamiento:</strong></h5>
+                        <p>16 Horas.</p>
+                    </div>
+                </div>
+
+
+                <!--Aquí se colocan los componentes html del main-->
+            </div>
+        </div>
+        <div class="row">
+            <div id="footer" class="col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+                <div class="row">
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <img src="../img/w3c.png" class="mx-auto d-flex justify-content-center" alt="">
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <br>
+                        <p class="mx-auto d-flex justify-content-center text-light">SENA CBAGRO ©</p>
+                        <p class="mx-auto d-flex justify-content-center text-light">Visítanos en: http://bienestarcba.blogspot.com/</p>
+                        <p class="mx-auto d-flex justify-content-center text-light">Teléfono: 15462323</p>
+                    </div>
+                    <div class="col-sm-4 col-md-4 col-lg-4 col-xl-4 col-xxl-4">
+                        <br>
+                        <div class="mx-auto d-flex justify-content-center">
+                            <a href="https://www.facebook.com/cbasenamosquera" target="_blank"
+                                rel="noopener noreferrer"><img src="../img/facebook.png" alt=""></a>
+                            <a href="https://www.instagram.com/senacomunica/?hl=es-la" target="_blank"
+                                rel="noopener noreferrer"><img src="../img/instagram.png" alt=""></a>
+                            <a href="https://twitter.com/senacomunica?lang=es" target="_blank"
+                                rel="noopener noreferrer"><img src="../img/twitter.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

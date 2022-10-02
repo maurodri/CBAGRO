@@ -12,7 +12,7 @@
 poner el texto aqui y sus imagenes
 
 ## Quiénes Somos ##
-Esta es una de las principales categorias de la pagina del CBAGRO en donde evidenciamos una descripción de quien es y que ofrece el **SENA** en nivel general. </sub>
+Esta es una de las principales categorias de la pagina del CBAGRO en donde evidenciamos una descripción de quien es y que ofrece el **SENA** en nivel general.
 - A continuación vemos un video puesto en la pagina. 
  ![image](https://user-images.githubusercontent.com/110676905/193472053-0a16a6e6-3aca-4a0d-bfa2-7bdcb4d432f5.png)
  

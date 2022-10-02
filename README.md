@@ -6,6 +6,8 @@
 ## Fecha Creación: 02 de Septiembre - 02 de Octubre  del 2022
 ## Versión: 1.0.0
 
+<!-- hecho el 2 de octubre de 2022 -->
+
 ## Inicio ##
 poner el texto aqui y sus imagenes
 
@@ -42,10 +44,10 @@ Se define las caracteristicas y la imagen de la bandera del **SENA**
  ![image](https://user-images.githubusercontent.com/110676905/193475796-50a2ebac-d039-4a69-881c-389ba97ec75a.png)
 
  #### Codigo para poner el video ####
-  ``<iframe class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" height="615"
+  `` <iframe class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12" height="615"
                         src="https://www.youtube.com/embed/U_exqn8Khpk" title="SENA es Colombia"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>``
+                        allowfullscreen></iframe> ``
                       
 #### responsive ####
 De igual manera esta pagina es de uso en diferentes dispositivos tales como celular pc tablet etc
@@ -67,13 +69,31 @@ En esta parte se puso un mapa extraido de maps con la ubicación del **SENA**
 ![image](https://user-images.githubusercontent.com/110676905/193475913-0920b85e-9198-4fb6-b626-784f537962f0.png)
 
 #### codigo para poner el mapa ####
-  ``<iframe class="map"
+ `` <iframe class="map"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15905.503575015211!2d-74.20909989340822!3d4.704591472418052!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9d58cf6e291b%3A0x8946ec678fcf04b4!2sSENA%20Mosquera%20-%20Centro%20de%20Biotecnolog%C3%ADa%20Agropecuaria%20(CBA)!5e0!3m2!1ses!2sco!4v1663436151615!5m2!1ses!2sco"
-                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>``
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> ``
 
 Y con esto los datos basicos y geograficos del CBA de Mosquera Cundinamarca.
 ![image](https://user-images.githubusercontent.com/110676905/193476032-d1064cc4-dd37-493c-921c-1c19c4123844.png)
 
+# Categorias #
+
+## Apicultura ##
+texto e informacion
+
+## Especies Menores ##
+texto e informacion
+
+## Ganaderia ##
+texto e informacion
+
+# Exposiciones #
+
+## Reposteria y Cocteleria ##
+texto e informacion
+
+## Biotecnologia ##
+texto e informacion
 
 ## Eventos ##
 En este espacio se puede evidenciar los eventos tanto anuncios mas recientes y proximos del CBA Mosquera.
@@ -82,8 +102,10 @@ En este espacio se puede evidenciar los eventos tanto anuncios mas recientes y p
 ![image](https://user-images.githubusercontent.com/110676905/193477231-9bf92036-18ac-4562-844d-eab5234a91e9.png)
 
 #### Codigo usado para hacer las cards de eventos ####
+se uso el ejemplo del evento del amor y la amistad.
 
-`` <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 carta_espacio">
+```
+<div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 carta_espacio">
                             <div class="card largo_carta">
                                 <img src="../img/Amor-y-amistad.png" alt="" class="card-img-top">
                                 <div class="card-body">
@@ -97,4 +119,31 @@ En este espacio se puede evidenciar los eventos tanto anuncios mas recientes y p
                                     </button>
                                 </div>
                             </div>
-                        </div>``
+                        </div> 
+```
+
+Luego de esto se hizo el modal el cual esta conectado a la card mediante el boton de ver mas--> 
+
+#### Codigo usado para hacer el modal de eventos ####
+```
+ <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="Modal2" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">AMOR Y AMISTAD</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+
+                        <img src="../img/Amor-y-amistad.png" alt="" class="img-fluid">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> 
+```
+![image](https://user-images.githubusercontent.com/110676905/193478003-4481366d-1e1a-4c47-b6c2-e5145923693f.png)
+
+

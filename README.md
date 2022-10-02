@@ -8,8 +8,90 @@
 
 <!-- hecho el 2 de octubre de 2022 -->
 
-## Inicio ##
-poner el texto aqui y sus imagenes
+
+Bienvenidos a nuestro proyecto sobre el evento CBAGRO realizado por el equipo de desarrolladores KODEX, en este documento se va a hablar sobre el proceso completo de realización de este mismo mencionando: las herramientas usadas, como se ideó, como fue dividido el trabajo entre los integrantes del equipo, entre otros datos. Con la finalidad de que la persona que lea esto tenga total comprensión de lo que se requiere para lograr este objetivo.
+
+### Ideación
+
+En primer lugar se recibieron los requerimientos planteados por los instructores técnicos Leonardo Rojas Aldana y Jorge Orlando Castro que consisten en crear un proyecto basado en el evento CBAGRO, evento realizado por el Centro de Biotecnología Agropecuaria SENA Mosquera para inicios del mes de noviembre del año actual. la intención de este proyecto es que los aprendices de la ficha 2558346 demuestren lo que aprendieron en el transcurso del primer trimestre creando una página web que contenga en especificaciones técnicas un container, un nav, un aside, un main y un footer; para las especificaciones en contenido se requirieron las siguientes secciones: Inicio, Quienes Somos, Ubicación, Objetivos, Categorías (Apicultura, Especies Menores y Ganadería), Exposiciones (Repostería y Coctelería, Biotecnología) y Eventos.
+
+para conocer este documento diríjase al siguiente link:
+https://docs.google.com/document/d/1LS49ntHaI5ovQpBkolCHpjMR1jtqJVS2/edit?usp=sharing&ouid=117951640956899849984&rtpof=true&sd=true
+
+Después de entender los requerimientos se comenzó a plantear cómo sería este proyecto, comenzando a realizar Sketches en papel del posible diseño de este en versión de escritorio y versión móvil.
+
+### Versión de Escritorio
+- ![image](https://user-images.githubusercontent.com/110676905/193478668-1191ed3a-b245-4b57-9c0f-15f05127312e.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193478685-bbc99d35-cf68-4d79-b3a4-98b1b65aae8b.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193478691-15e23633-6202-43cc-b6eb-4ff4799f008e.png)
+
+### Versión Móvil
+- ![image](https://user-images.githubusercontent.com/110676905/193478752-390c5000-8237-449f-9153-75a254467ea8.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193478763-898fb1f1-3426-46b4-bb45-ea6777026082.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193478771-145f0da6-11e5-4849-a135-dc3b980d0fc0.png)
+
+### Prototipo 
+
+El prototipo se realizó en la plataforma web llamada Figma, que se encarga de crear y dar las herramientas para plantear prototipos simulados siendo su finalidad ser una gran aliada para los productos de software. La idea de este prototipo es presentar cómo sería la interacción y el diseño final del proyecto cuando ya esté terminado.
+
+El resultado de este prototipo ya finalizado fue el siguiente:
+
+### Versión de Escritorio
+
+- ![image](https://user-images.githubusercontent.com/110676905/193478796-95b483ed-a4da-42f9-afcc-dd82696c2a57.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193478807-8a3cba91-0b93-46cd-b076-b19a154c8d36.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193478814-6b0f2c0b-f793-4303-8157-0f49450fcab7.png)
+
+### Versión Móvil
+- ![image](https://user-images.githubusercontent.com/110676905/193478830-40be00b7-be23-423d-ba49-aeab7ee1bcd8.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193478840-324d5bab-d110-46a5-8e6d-8117de0ed4f7.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193478849-6c89be9e-b9d8-414a-bf9f-d9270a0c8d8d.png)
+
+Para interactuar con estos prototipos dirigirse a los siguientes enlaces:
+
+Prototipo Movil: https://www.figma.com/file/MlhZR4QiVZm7y7I4wP0kaa/ADSO
+
+Prototipo Escritorio: https://www.figma.com/file/pSZLEQu5OGVQHas4GNkuKY/SENAGRO-PC
+
+### Producto Final 
+
+En la realización del proyecto ya en sí repartieron entre los integrantes del equipo sus respectivas labores de forma equitativa y en fechas que se consideraron cómodas para trabajar y que no afectarán tanto al proyecto como a sus actividades fuera de la institución. 
+
+La organización de estas actividades fueron de la siguiente manera:
+Diego Diaz: Especies Menores, Objetivos.
+
+Christian De Avila: Repostería y Coctelería, Ganadería.
+
+Mauricio Rodríguez: Quienes Somos, Ubicación, Eventos. (A Mauricio le tocó tres páginas a realizar, ya que el contenido de estas la mayoría estaba tanto en los audios suministrados por los instructores técnicos vía whatsapp como por el blog digital del centro de formación).
+
+William Garzón: Biotecnología,  Apicultura, Maqueta General de todo el proyecto, Edición Final. (William fue el líder de equipo, por ende él fue quien dio todas las directrices para poder realizar este proyecto, como tiene más experiencia en programación creó la plantilla principal y corrigió todos los errores de los trabajos de los demás integrantes del equipo).
+
+Ya explicando esto es momento de explicar en qué consiste el proyecto final:
+
+
+## Inicio  y Maqueta General ##
+Comenzamos con el index y de paso se explica la maqueta general porque esta consiste que se cumplieron todos los requerimientos de maquetación implementando las secciones de Header, Nav, Aside, Main, Footer.
+
+En el Nav se usó el Nav-Bar de bootstrap.
+##### Contenido general #####
+- Las categorias.
+- Exposiciones.
+- Eventos.
+- Quienes somos.
+- Objetivos.
+- Inicio.
+- El como llegar .
+- El logo del **SENA**.
+- El logo del CBAGRO.
+- El copyright SENA CBAGRO ©2022 .
+- Donde Visítarnos en: http://bienestarcba.blogspot.com/
+- Teléfono: 15462323.
+- Validacion W3C.
+- Las redes sociales del sena.
+![image](https://user-images.githubusercontent.com/110676905/193479452-2205cab0-ae34-444e-8fe3-a19ba74b3a61.png)
+![image](https://user-images.githubusercontent.com/110676905/193479466-cbcdcc4e-72a6-4394-a717-99c1c3bb2e9c.png)
+![image](https://user-images.githubusercontent.com/110676905/193479480-4fdcd30b-3401-4200-ad50-948a24045832.png)
+
 
 ## Quiénes Somos ##
 Esta es una de las principales categorias de la pagina del CBAGRO en donde evidenciamos una descripción de quien es y que ofrece el **SENA** en nivel general.

@@ -159,9 +159,62 @@ De igual manera esta pagina es de uso en diferentes dispositivos tales como celu
 
 
 ## Objetivos ##
-poner el texto aqui y sus imagenes.
+El objetivo por el cual creamos este proyecto es para los futuros aprendices tengan motivos para acceder a los programas del CBA, donde para cada aprendiz hay una oferta de educación muy variada para todos los gustos con instructores con toda la experiencia y conocimiento, junto a eso también deseamos demostrar que en el centro no solo se dedica a la agricultura y crianza de animales,  sino también  se pueden lograr muchas metas a nivel formativo.
 
-## Como Llegar ##
+- ![image](https://user-images.githubusercontent.com/110676905/193492050-d5c08706-3686-4ba5-80c9-4a770ce5458b.png)
+
+Aca se mostraran la gran unidad entre aprendiz e instructor como directorios donde ellos se preocupan por el bienestar todos y hacen que el CBA sea un ambiente de educación y diversidad de manera bien implementada 
+- ![image](https://user-images.githubusercontent.com/110676905/193492236-2bfc4f6b-1db3-450d-bc65-419ee1d809d0.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193492369-3d2dbb9f-c6f5-4b9b-bae5-49addb70eaec.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193492344-91dbd75f-f703-439b-bc55-0e65c37ad0ea.png)
+
+#### codigo para poner el carrusel ####
+```
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                            class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                            aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                            aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="https://www.sena.edu.co/es-co/Noticias/NoticiasImg/BPganaderia_13Dic2018.jpg"
+                                class="d-block w-100 carusel2 img_carusel" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <!-- para añadir texto alternativo  -->
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="http://2.bp.blogspot.com/-LG1eYwA5fos/TVbRBuMLtsI/AAAAAAAAADk/IldWYroxkkc/s1600/Auditorio.JPG"
+                                class="d-block w-100 carusel2 img_carusel" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="https://1.bp.blogspot.com/-P_XvsfBEplM/WdVHxsiEEAI/AAAAAAAAELw/2YDAIuykoI0EDsPRF8uhJJ-noHGuK9alQCLcBGAs/s1600/IMG_9987.JPG"
+                                class="d-block w-100 carusel2 img_carusel" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+```
+
+  ## Como Llegar ##
 En esta parte se puso un mapa extraido de maps con la ubicación del **SENA** 
 - ![image](https://user-images.githubusercontent.com/110676905/193475913-0920b85e-9198-4fb6-b626-784f537962f0.png)
 
@@ -171,7 +224,7 @@ En esta parte se puso un mapa extraido de maps con la ubicación del **SENA**
                             allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> ``
 
 Y con esto los datos basicos y geograficos del CBA de Mosquera Cundinamarca.
-![image](https://user-images.githubusercontent.com/110676905/193476032-d1064cc4-dd37-493c-921c-1c19c4123844.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193476032-d1064cc4-dd37-493c-921c-1c19c4123844.png)
 
 # Categorias #
 
@@ -185,15 +238,81 @@ En la sección de apicultura por motivos de seguridad y restricciones por parte 
 En la sección de eventos se explica los respectivos códigos que se usaron para lograr este tipo de tarjetas con ventanas modales, su intención es que el usuario se enamore de un producto a primera vista y tenga en cuenta todas las características de este mismo.
 
 ## Especies Menores ##
-texto e informacion
+En esta sección encontrará sobre las especies menores que se encuentran en el CBA del SENA donde el manejo de las especies menores es una actividad muy rentable, requiere poca inversión de capital para el desarrollo de los procesos productivos, se realiza en  espacios muy pequeños para emprender actividades comerciales, dando a conocer el modo de alimentación y crecimiento y son especies que permiten aprovechar muy bien los recursos naturales del entorno y el aprovechamiento de los productos y residuos de otras actividades agropecuarias.
+
+![image](https://user-images.githubusercontent.com/110676905/193493530-b8319ca3-b152-4476-9281-7e8da2d84c55.png)
+
+Se realizó la presentación de las especies mediante las cards donde cada una de ellas contiene fotos y presenta una breve descripción de la especie
+
+- ![image](https://user-images.githubusercontent.com/110676905/193493663-7984e0f5-c625-4400-b0d8-8e1f5ec0595b.png)
+Por lo tanto también se realizó una sección donde se muestran los productos cosechados en el CBA con su breve descripción de su realización y cuidados
+
+- ![image](https://user-images.githubusercontent.com/110676905/193493755-9a6ad752-e359-4efb-875f-f3e58f9da880.png)
+
 
 ## Ganaderia ##
-texto e informacion
+El CBA cuenta con una exagerada cantidad de animales en el área de la ganadería dándonos a entender su capacidad productora y de tecnología que tiene para mantener estos animales, entre sus usos están los productos primarios de la crianza de bovinos de leche son la leche, carne y cuero. Los pequeños productores, con fines de seguridad alimentaria, elaboran queso o yogurt. La industria procesa una diversidad de productos lácteos los cuales recalcamos que en el CBA vendemos.
+
+El resultado de los derivados lácteos corresponde a una serie de procesos artesanales que adelantan dentro de la misma finca: primero ordeñan manualmente, cuelan la leche, se pasteuriza y se distribuye para la preparación de cada producto. "Actualmente, estamos preparando yogures de feijoa, piña, frutos rojos, mango, lulo y maracuyá, los cuales son naturales y sin aditivos. Todo esto es gracias al SENA, a quien le agradezco inmensamente porque es una Entidad que no se fija en clases sociales, si somos del campo o de la ciudad"
+
+- ![image](https://user-images.githubusercontent.com/110676905/193493845-1bfd04d6-96ad-4117-b998-0963f52a67a4.png)
+
+
+El concepto de hato hace referencia a una porción de ganado mayor (vacas, toros, bueyes, búfalos, caballos, etc.) y a las fincas destinadas a la crianza de estos animales. El concepto de hato hace referencia a una porción de ganado mayor (vacas, toros, bueyes, búfalos, caballos, etc.) en el CBA no tengo certeza de que tengamos caballos aún pero podría suponer que si 
+- ![image](https://user-images.githubusercontent.com/110676905/193493944-c27b20e1-a39a-47fa-a1e2-9fdfaf6f67de.png)
+
+La vaca que es nuestro principal productor , en el caso de la hembra, o toro, en el caso del macho, es un mamífero artiodáctilo de la familia de los bóvidos. Anteriormente era considerado una subespecie de Bos primigenius, pero un estudio reciente lo considera una especie distinta.
+- ![image](https://user-images.githubusercontent.com/110676905/193493999-a04087aa-61b0-4723-a10e-ac730540b42b.png)
+
+En esto hacemos referencia a la ganadería vacuna a continuación veremos nuestros productos en comercialización
+- ![image](https://user-images.githubusercontent.com/110676905/193494172-edef768f-cda5-44ce-a802-2ad7736ac209.png)
+
+Leche de Vacas CBA, Queso del CBA, Yogurt del CBA  
+Los productos de la leche proveen proteínas, vitaminas y minerales. La leche, el yogurt y el queso son la mejor fuente de calcio. La leche en cualquier forma, es una buena fuente de calcio. Ya que la leche es un producto derivado de un animal, contiene grasa saturada y colesterol.
+
+- ![image](https://user-images.githubusercontent.com/110676905/193494263-cc82187c-f551-488a-aabc-b20203b2a42c.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193494330-0ee0cab3-18af-4c47-88ae-1fa3c94e67a9.png)
+
 
 # Exposiciones #
 
 ## Reposteria y Cocteleria ##
-texto e informacion
+En la Exposición de cocina y preparación contamos con la conocida repostería y coctelería  la cual se basa o trata en  aplicar los procesos asociados con la preparación, la decoración y el diseño de diferentes tipos de pasteles, postres, tartas y galletas. Es fácil de aprender y solo se requiere tener conocimientos elementales.
+
+- ![image](https://user-images.githubusercontent.com/110676905/193494398-6d9f7d43-58f3-4822-9208-d000c4155197.png)
+
+ #### Beneficios de la repostería casera  :+1: 
+- [x] Ingredientes nutritivos.
+- [x] Alimento completo.
+- [x] Libre de conservantes.
+- [x] Menor cantidad de calorías. 
+- [x] Menor cantidad de grasa.
+- [x] Reducción del colesterol.
+- [x] Bueno para la salud.
+- [x] Reduce la contaminación.
+
+- ![image](https://user-images.githubusercontent.com/110676905/193495011-ab4a457e-9282-4edb-b7b0-f0b6a0a8875d.png)
+
+ Bueno en nuestros menús no pueden faltar los clásicos y mejores postres del CBA como unos deliciosos postres de flan o el clásico postre de plátano o torta de plátano ya más adentrándonos podemos ver  que los principales del CBA y más Tops en cuanto a preparación y proceso son los siguientes:  
+
+- Carolina. Josean Alija. ...
+- Baklava. Chris Ford. ...
+- Selva Negra. ...
+- Cheesecake de ruibarbo. ...
+- Tarta de zanahoria. ...
+- Opera. ...
+- Tarta de manzana. ...
+- Pavlova
+
+  En cuanto a Coctelería y en nuestro curso de Bartender que tratamos todo lo que tenga que ver con cócteles de cualquier tipo y especialidad me fije en lo más exotico y decente de nuestros Centro entre sus bebidas más deliciosas estaban las siguientes : 
+- ![image](https://user-images.githubusercontent.com/110676905/193495364-88849229-6b22-46e8-9be4-c72c9ad7771a.png)
+
+  ya sea un Daikiri , margarita , Manhattan siempre la sensacion sera la misma al verlos por eso me fije en que el usuario se sienta tentado mínimamente a preguntar qué es o a qué sabor se  asemeja 
+
+- ![image](https://user-images.githubusercontent.com/110676905/193495410-50761e4d-e01f-4c0e-aee1-f0bda62abb7a.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193495479-a1ec74a9-cb8b-47d5-9771-cb00231f4771.png)
+
+
 
 ## Biotecnologia ##
 La sección de biotecnología se encuentra todo lo que tiene que ver con el agro en el centro, se pensó en ello porque en los requerimientos iniciales del trabajo no había una sección donde se explicaran todos los productos que se obtienen de las cosechas, entonces en la sección de biotecnología se explican los procedimientos agrarios que son gestionados por medios electrónicos sean por medio de hardware o software. 

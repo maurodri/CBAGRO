@@ -184,7 +184,6 @@ En la sección de apicultura por motivos de seguridad y restricciones por parte 
 
 En la sección de eventos se explica los respectivos códigos que se usaron para lograr este tipo de tarjetas con ventanas modales, su intención es que el usuario se enamore de un producto a primera vista y tenga en cuenta todas las características de este mismo.
 
-
 ## Especies Menores ##
 texto e informacion
 
@@ -197,7 +196,16 @@ texto e informacion
 texto e informacion
 
 ## Biotecnologia ##
-texto e informacion
+La sección de biotecnología se encuentra todo lo que tiene que ver con el agro en el centro, se pensó en ello porque en los requerimientos iniciales del trabajo no había una sección donde se explicaran todos los productos que se obtienen de las cosechas, entonces en la sección de biotecnología se explican los procedimientos agrarios que son gestionados por medios electrónicos sean por medio de hardware o software. 
+
+El CBA hasta el momento casi no ha implementado tecnologías de este tipo por ello se complementa esta página con los productos agrícolas que están a la venta porque como se explicó anteriormente esta temática es fundamental para una plataforma que trate del agro y en el objetivo planteado inicialmente no se contempló. 
+
+
+- ![image](https://user-images.githubusercontent.com/110676905/193482118-f49d7c98-3789-4c04-b591-9d55dad5bacc.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193482131-bda0da6e-6c57-4f44-b143-fd40a587c0ea.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193482144-459d4dbc-eea0-4a1e-badd-980b13609bc7.png)
+- ![image](https://user-images.githubusercontent.com/110676905/193482343-57a0d160-9f50-40f8-b793-e82f5fb8c466.png)
+
 
 ## Eventos ##
 En este espacio se puede evidenciar los eventos tanto anuncios mas recientes y proximos del CBA Mosquera.
@@ -205,7 +213,7 @@ En este espacio se puede evidenciar los eventos tanto anuncios mas recientes y p
 - ![image](https://user-images.githubusercontent.com/110676905/193477193-e42021db-bbaf-4501-9aa4-d702a0f9f388.png)
 - ![image](https://user-images.githubusercontent.com/110676905/193477231-9bf92036-18ac-4562-844d-eab5234a91e9.png)
 
-#### Codigo usado para hacer las cards de eventos ####
+#### Codigo usado para hacer las cards ####
 se uso el ejemplo del evento del amor y la amistad.
 
 ```
@@ -228,7 +236,7 @@ se uso el ejemplo del evento del amor y la amistad.
 
 Luego de esto se hizo el modal el cual esta conectado a la card mediante el boton de ver mas--> 
 
-#### Codigo usado para hacer el modal de eventos ####
+#### Codigo usado para hacer el modal ####
 ```
  <div class="modal fade" id="Modal2" tabindex="-1" aria-labelledby="Modal2" aria-hidden="true">
         <div class="modal-dialog modal-lg">
